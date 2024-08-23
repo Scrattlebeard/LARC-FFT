@@ -1,0 +1,277 @@
+{
+    "task_name": "d511f180.json",
+    "task_number": 336,
+    "descriptions": [
+        {
+            "description_id": "3bad70c1-9985-4282-a154-a97e63edc217",
+            "task_name": "d511f180.json",
+            "description_input": "In the input, you should see...multiple colors in use the cover in the input",
+            "description_output_grid_size": "The output grid size...In the input, you should see...multiple colors in use the cover in the input",
+            "description_output_instructions": "To make the output, you have to...In the input, you should see...multiple colors in use the cover in the input",
+            "is_verified": false,
+            "confidence": null,
+            "num_verification_attempts": 3,
+            "builds": []
+        },
+        {
+            "description_id": "4613511d-a179-499b-889e-b2ebe7819c8b",
+            "task_name": "d511f180.json",
+            "description_input": "In the input, you should see...any and all colors",
+            "description_output_grid_size": "The output grid size...keep same",
+            "description_output_instructions": "To make the output, you have to...change all gray squares to light blue and all light blue squares to gray. Everything else keep the same as input.",
+            "is_verified": true,
+            "confidence": 10,
+            "num_verification_attempts": 1,
+            "builds": [
+                {
+                    "build_id": "zMHqkPcqqFL31AeSJ3Pq",
+                    "description_id": "4613511d-a179-499b-889e-b2ebe7819c8b",
+                    "is_success": true,
+                    "num_attempts": 1
+                }
+            ]
+        },
+        {
+            "description_id": "78ab17cd-a9be-4d9c-8f13-fa1952c96ce1",
+            "task_name": "d511f180.json",
+            "description_input": "In the input, you should see...change all grey to light blue",
+            "description_output_grid_size": "The output grid size...In the input, you should see...change all grey to light blue",
+            "description_output_instructions": "To make the output, you have to...In the input, you should see...change all grey to light blue",
+            "is_verified": true,
+            "confidence": 10,
+            "num_verification_attempts": 1,
+            "builds": [
+                {
+                    "build_id": "wgIzNERWPbPWTM03oWrr",
+                    "description_id": "78ab17cd-a9be-4d9c-8f13-fa1952c96ce1",
+                    "is_success": false,
+                    "num_attempts": 3
+                }
+            ]
+        },
+        {
+            "description_id": "95d8ceb3-4cb4-442f-8c12-d0c21956b473",
+            "task_name": "d511f180.json",
+            "description_input": "In the input, you should see...any and all colors",
+            "description_output_grid_size": "The output grid size...same as input grid",
+            "description_output_instructions": "To make the output, you have to...change all the gray squares to light blue and all the light blue squares to gray. Everything else keep same as input.",
+            "is_verified": true,
+            "confidence": 10,
+            "num_verification_attempts": 1,
+            "builds": [
+                {
+                    "build_id": "2p2gr2VSYK5NxMRRBpws",
+                    "description_id": "95d8ceb3-4cb4-442f-8c12-d0c21956b473",
+                    "is_success": true,
+                    "num_attempts": 1
+                }
+            ]
+        }
+    ],
+    "training_grids": [
+        {
+            "input": [
+                [
+                    2,
+                    7,
+                    8,
+                    8,
+                    8
+                ],
+                [
+                    5,
+                    5,
+                    6,
+                    5,
+                    4
+                ],
+                [
+                    8,
+                    5,
+                    5,
+                    5,
+                    2
+                ],
+                [
+                    8,
+                    8,
+                    4,
+                    3,
+                    6
+                ],
+                [
+                    6,
+                    5,
+                    1,
+                    9,
+                    3
+                ]
+            ],
+            "output": [
+                [
+                    2,
+                    7,
+                    5,
+                    5,
+                    5
+                ],
+                [
+                    8,
+                    8,
+                    6,
+                    8,
+                    4
+                ],
+                [
+                    5,
+                    8,
+                    8,
+                    8,
+                    2
+                ],
+                [
+                    5,
+                    5,
+                    4,
+                    3,
+                    6
+                ],
+                [
+                    6,
+                    8,
+                    1,
+                    9,
+                    3
+                ]
+            ]
+        },
+        {
+            "input": [
+                [
+                    3,
+                    5,
+                    1
+                ],
+                [
+                    4,
+                    5,
+                    8
+                ],
+                [
+                    2,
+                    4,
+                    9
+                ]
+            ],
+            "output": [
+                [
+                    3,
+                    8,
+                    1
+                ],
+                [
+                    4,
+                    8,
+                    5
+                ],
+                [
+                    2,
+                    4,
+                    9
+                ]
+            ]
+        },
+        {
+            "input": [
+                [
+                    6,
+                    5,
+                    3
+                ],
+                [
+                    5,
+                    7,
+                    5
+                ],
+                [
+                    8,
+                    8,
+                    2
+                ]
+            ],
+            "output": [
+                [
+                    6,
+                    8,
+                    3
+                ],
+                [
+                    8,
+                    7,
+                    8
+                ],
+                [
+                    5,
+                    5,
+                    2
+                ]
+            ]
+        }
+    ],
+    "test_grid": [
+        {
+            "input": [
+                [
+                    8,
+                    8,
+                    4,
+                    5
+                ],
+                [
+                    3,
+                    8,
+                    7,
+                    5
+                ],
+                [
+                    3,
+                    7,
+                    1,
+                    9
+                ],
+                [
+                    6,
+                    4,
+                    8,
+                    8
+                ]
+            ],
+            "output": [
+                [
+                    5,
+                    5,
+                    4,
+                    8
+                ],
+                [
+                    3,
+                    5,
+                    7,
+                    8
+                ],
+                [
+                    3,
+                    7,
+                    1,
+                    9
+                ],
+                [
+                    6,
+                    4,
+                    5,
+                    5
+                ]
+            ]
+        }
+    ]
+}

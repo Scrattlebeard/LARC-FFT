@@ -1,0 +1,502 @@
+{
+    "task_name": "794b24be.json",
+    "task_number": 185,
+    "descriptions": [
+        {
+            "description_id": "18438584-ebc6-4a37-b194-70a5f66c3ca6",
+            "task_name": "794b24be.json",
+            "description_input": "In the input, you should see...some colored blocks on the grid.",
+            "description_output_grid_size": "The output grid size...is the same size as the input grid.",
+            "description_output_instructions": "To make the output, you have to...change the color of the blocks and move them all to the top of the grid and start filling in the blocks from left to right keeping the same number of blocks from the original grid.",
+            "is_verified": true,
+            "confidence": 8,
+            "num_verification_attempts": 1,
+            "builds": [
+                {
+                    "build_id": "D4wWmnoQ4IWwmvNJO5r7",
+                    "description_id": "18438584-ebc6-4a37-b194-70a5f66c3ca6",
+                    "is_success": false,
+                    "num_attempts": 3
+                }
+            ]
+        },
+        {
+            "description_id": "5ebca81e-8f14-4c03-93e9-56088058d91b",
+            "task_name": "794b24be.json",
+            "description_input": "In the input, you should see...a 3x3 grid with between 1 to 4 blue squares in it.",
+            "description_output_grid_size": "The output grid size...is the same size as the input grid.",
+            "description_output_instructions": "To make the output, you have to...count the number of blue squares in the input. You will need this same number of squares in the output, but the new squares will become red and will be relocated in the following order until you have used the same number of squares that you counted; First red square goes in top left; second red square (if any) goes if top middle; third red square (if any) goes in top right and fourth red square (if any) goes in middle of grid.",
+            "is_verified": true,
+            "confidence": 8,
+            "num_verification_attempts": 1,
+            "builds": [
+                {
+                    "build_id": "IKDnMQFQebtOx8gdqf87",
+                    "description_id": "5ebca81e-8f14-4c03-93e9-56088058d91b",
+                    "is_success": true,
+                    "num_attempts": 1
+                },
+                {
+                    "build_id": "WgtseVMflpQz1i76X65j",
+                    "description_id": "5ebca81e-8f14-4c03-93e9-56088058d91b",
+                    "is_success": false,
+                    "num_attempts": 3
+                },
+                {
+                    "build_id": "aNyoDnavaEoWITcxmhMh",
+                    "description_id": "5ebca81e-8f14-4c03-93e9-56088058d91b",
+                    "is_success": true,
+                    "num_attempts": 1
+                },
+                {
+                    "build_id": "i33Ezd0lQBntpl0IXKFo",
+                    "description_id": "5ebca81e-8f14-4c03-93e9-56088058d91b",
+                    "is_success": false,
+                    "num_attempts": 3
+                },
+                {
+                    "build_id": "pwGqemyblzdXD1hIojAr",
+                    "description_id": "5ebca81e-8f14-4c03-93e9-56088058d91b",
+                    "is_success": true,
+                    "num_attempts": 1
+                }
+            ]
+        }
+    ],
+    "training_grids": [
+        {
+            "input": [
+                [
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    1,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "output": [
+                [
+                    2,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    0
+                ]
+            ]
+        },
+        {
+            "input": [
+                [
+                    0,
+                    1,
+                    0
+                ],
+                [
+                    1,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "output": [
+                [
+                    2,
+                    2,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    0
+                ]
+            ]
+        },
+        {
+            "input": [
+                [
+                    0,
+                    0,
+                    1
+                ],
+                [
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    1,
+                    0,
+                    0
+                ]
+            ],
+            "output": [
+                [
+                    2,
+                    2,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    0
+                ]
+            ]
+        },
+        {
+            "input": [
+                [
+                    0,
+                    1,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    1
+                ],
+                [
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "output": [
+                [
+                    2,
+                    2,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    0
+                ]
+            ]
+        },
+        {
+            "input": [
+                [
+                    0,
+                    0,
+                    1
+                ],
+                [
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "output": [
+                [
+                    2,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    0
+                ]
+            ]
+        },
+        {
+            "input": [
+                [
+                    1,
+                    1,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    1,
+                    0,
+                    0
+                ]
+            ],
+            "output": [
+                [
+                    2,
+                    2,
+                    2
+                ],
+                [
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    0
+                ]
+            ]
+        },
+        {
+            "input": [
+                [
+                    0,
+                    1,
+                    0
+                ],
+                [
+                    1,
+                    1,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "output": [
+                [
+                    2,
+                    2,
+                    2
+                ],
+                [
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    0
+                ]
+            ]
+        },
+        {
+            "input": [
+                [
+                    1,
+                    1,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    1,
+                    0,
+                    1
+                ]
+            ],
+            "output": [
+                [
+                    2,
+                    2,
+                    2
+                ],
+                [
+                    0,
+                    2,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    0
+                ]
+            ]
+        },
+        {
+            "input": [
+                [
+                    0,
+                    1,
+                    0
+                ],
+                [
+                    1,
+                    1,
+                    0
+                ],
+                [
+                    1,
+                    0,
+                    0
+                ]
+            ],
+            "output": [
+                [
+                    2,
+                    2,
+                    2
+                ],
+                [
+                    0,
+                    2,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    0
+                ]
+            ]
+        },
+        {
+            "input": [
+                [
+                    1,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    1
+                ],
+                [
+                    0,
+                    1,
+                    1
+                ]
+            ],
+            "output": [
+                [
+                    2,
+                    2,
+                    2
+                ],
+                [
+                    0,
+                    2,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    0
+                ]
+            ]
+        }
+    ],
+    "test_grid": [
+        {
+            "input": [
+                [
+                    0,
+                    1,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    1,
+                    0
+                ]
+            ],
+            "output": [
+                [
+                    2,
+                    2,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    0
+                ]
+            ]
+        },
+        {
+            "input": [
+                [
+                    0,
+                    1,
+                    0
+                ],
+                [
+                    0,
+                    1,
+                    1
+                ],
+                [
+                    1,
+                    0,
+                    0
+                ]
+            ],
+            "output": [
+                [
+                    2,
+                    2,
+                    2
+                ],
+                [
+                    0,
+                    2,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    0
+                ]
+            ]
+        }
+    ]
+}

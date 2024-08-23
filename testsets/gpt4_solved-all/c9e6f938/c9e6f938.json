@@ -1,0 +1,284 @@
+{
+    "task_name": "c9e6f938.json",
+    "task_number": 310,
+    "descriptions": [
+        {
+            "description_id": "25106bdc-cb23-41e9-a5e9-b473e99de323",
+            "task_name": "c9e6f938.json",
+            "description_input": "In the input, you should see...the orange grid only",
+            "description_output_grid_size": "The output grid size...two times the row but height",
+            "description_output_instructions": "To make the output, you have to...make the pattern mirror as left right with the same height and twice the row",
+            "is_verified": false,
+            "confidence": null,
+            "num_verification_attempts": 3,
+            "builds": []
+        },
+        {
+            "description_id": "7e844341-6d92-4363-a52f-eecb454aa6fc",
+            "task_name": "c9e6f938.json",
+            "description_input": "In the input, you should see... a simple 3x3 pattern of orange and black dots.",
+            "description_output_grid_size": "The output grid size... doubles horizontally, so instead of 3x6 it's now 6x3.",
+            "description_output_instructions": "To make the output, you have to... copy the original pattern to the left half of the grid, then mirror it on the right, like an inkblot.",
+            "is_verified": true,
+            "confidence": 8,
+            "num_verification_attempts": 1,
+            "builds": [
+                {
+                    "build_id": "IpjngWo29ahXaF2PLCkG",
+                    "description_id": "7e844341-6d92-4363-a52f-eecb454aa6fc",
+                    "is_success": true,
+                    "num_attempts": 1
+                }
+            ]
+        },
+        {
+            "description_id": "99f8cee9-e91b-4bf9-ba2b-e0d62adbb093",
+            "task_name": "c9e6f938.json",
+            "description_input": "In the input, you should see...shows half of the image",
+            "description_output_grid_size": "The output grid size...six tall by three wide",
+            "description_output_instructions": "To make the output, you have to...copy the input image to the other half, but in opposite position",
+            "is_verified": true,
+            "confidence": 2,
+            "num_verification_attempts": 1,
+            "builds": []
+        },
+        {
+            "description_id": "e40bf0ec-72d5-4799-aedb-5fdbf29e9b9a",
+            "task_name": "c9e6f938.json",
+            "description_input": "In the input, you should see...an orange shape on a black background",
+            "description_output_grid_size": "The output grid size... has twice as many rows, but the same height",
+            "description_output_instructions": "To make the output, you have to...create a left-right mirror of pattern of the orange shape.",
+            "is_verified": true,
+            "confidence": 7,
+            "num_verification_attempts": 1,
+            "builds": [
+                {
+                    "build_id": "tEpykafz7uzlasXcbT0w",
+                    "description_id": "e40bf0ec-72d5-4799-aedb-5fdbf29e9b9a",
+                    "is_success": true,
+                    "num_attempts": 2
+                }
+            ]
+        },
+        {
+            "description_id": "fcdad1f9-c5b5-4472-9f75-1a2ecab509a4",
+            "task_name": "c9e6f938.json",
+            "description_input": "In the input, you should see...the orange grid only",
+            "description_output_grid_size": "The output grid size...two times the row, but same height!",
+            "description_output_instructions": "To make the output, you have to...make the pattern mirror as left-right with the same height and twice the row.",
+            "is_verified": true,
+            "confidence": 10,
+            "num_verification_attempts": 1,
+            "builds": [
+                {
+                    "build_id": "AGQxehw4hQaBcXQc414G",
+                    "description_id": "fcdad1f9-c5b5-4472-9f75-1a2ecab509a4",
+                    "is_success": true,
+                    "num_attempts": 1
+                }
+            ]
+        },
+        {
+            "description_id": "fcf55264-3cca-45b5-b71a-b6ec8cdc72ab",
+            "task_name": "c9e6f938.json",
+            "description_input": "In the input, you should see...orange squares on a black background.",
+            "description_output_grid_size": "The output grid size...is 6x3.",
+            "description_output_instructions": "To make the output, you have to...make an identical grid next to it with same pattern as input grid.",
+            "is_verified": true,
+            "confidence": 9,
+            "num_verification_attempts": 1,
+            "builds": [
+                {
+                    "build_id": "1vwI1icsb6vBSpwnrgn2",
+                    "description_id": "fcf55264-3cca-45b5-b71a-b6ec8cdc72ab",
+                    "is_success": false,
+                    "num_attempts": 3
+                }
+            ]
+        }
+    ],
+    "training_grids": [
+        {
+            "input": [
+                [
+                    0,
+                    7,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    7
+                ],
+                [
+                    0,
+                    7,
+                    7
+                ]
+            ],
+            "output": [
+                [
+                    0,
+                    7,
+                    0,
+                    0,
+                    7,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    7,
+                    7,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    7,
+                    7,
+                    7,
+                    7,
+                    0
+                ]
+            ]
+        },
+        {
+            "input": [
+                [
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    7,
+                    7
+                ],
+                [
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "output": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    7,
+                    7,
+                    7,
+                    7,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ]
+        },
+        {
+            "input": [
+                [
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    7,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "output": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    7,
+                    0,
+                    0,
+                    0,
+                    0,
+                    7
+                ],
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ]
+        }
+    ],
+    "test_grid": [
+        {
+            "input": [
+                [
+                    7,
+                    7,
+                    0
+                ],
+                [
+                    0,
+                    7,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    7
+                ]
+            ],
+            "output": [
+                [
+                    7,
+                    7,
+                    0,
+                    0,
+                    7,
+                    7
+                ],
+                [
+                    0,
+                    7,
+                    0,
+                    0,
+                    7,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    7,
+                    7,
+                    0,
+                    0
+                ]
+            ]
+        }
+    ]
+}

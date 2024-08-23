@@ -1,0 +1,319 @@
+{
+    "task_name": "88a62173.json",
+    "task_number": 206,
+    "descriptions": [
+        {
+            "description_id": "04b0d275-d9a7-4d5e-8630-00801deb1734",
+            "task_name": "88a62173.json",
+            "description_input": "In the input, you should see...red and then whole black colored and another yellow",
+            "description_output_grid_size": "The output grid size... blue and red and then black colored",
+            "description_output_instructions": "To make the output, you have to...black background change to another background",
+            "is_verified": false,
+            "confidence": null,
+            "num_verification_attempts": 3,
+            "builds": []
+        },
+        {
+            "description_id": "07a79be6-eec2-49b3-b3ae-b83e99444f5e",
+            "task_name": "88a62173.json",
+            "description_input": "In the input, you should see...good experiment",
+            "description_output_grid_size": "The output grid size...good experiment",
+            "description_output_instructions": "To make the output, you have to...good experiment",
+            "is_verified": false,
+            "confidence": null,
+            "num_verification_attempts": 3,
+            "builds": []
+        },
+        {
+            "description_id": "315c86b7-f9bd-4780-9939-c45c576566ce",
+            "task_name": "88a62173.json",
+            "description_input": "In the input, you should see...pixels of color",
+            "description_output_grid_size": "The output grid size... make 2x2 grid",
+            "description_output_instructions": "To make the output, you have to... represent to the input grid to out put grid",
+            "is_verified": false,
+            "confidence": null,
+            "num_verification_attempts": 3,
+            "builds": []
+        },
+        {
+            "description_id": "6f7676ce-d3e3-4f4d-b95c-fe3308c15ec7",
+            "task_name": "88a62173.json",
+            "description_input": "In the input, you should see...color pattern with different color",
+            "description_output_grid_size": "The output grid size...4x4 grid size",
+            "description_output_instructions": "To make the output, you have to...replicate any of the 4x4 color pattern",
+            "is_verified": true,
+            "confidence": 10,
+            "num_verification_attempts": 2,
+            "builds": [
+                {
+                    "build_id": "hr7Y4EUQUEErg6nCkFWb",
+                    "description_id": "6f7676ce-d3e3-4f4d-b95c-fe3308c15ec7",
+                    "is_success": false,
+                    "num_attempts": 3
+                }
+            ]
+        },
+        {
+            "description_id": "78c51b70-a037-41ee-a410-cfe620ba6fb2",
+            "task_name": "88a62173.json",
+            "description_input": "In the input, you should see...a grid with colored shapes in each corner.",
+            "description_output_grid_size": "The output grid size...should be the size of one of the colored shapes.",
+            "description_output_instructions": "To make the output, you have to...replicate one of the colored shapes.",
+            "is_verified": true,
+            "confidence": 1,
+            "num_verification_attempts": 2,
+            "builds": []
+        },
+        {
+            "description_id": "a637768c-24de-493e-a2fc-0b1b65ab8300",
+            "task_name": "88a62173.json",
+            "description_input": "In the input, you should see...Bottom edge use",
+            "description_output_grid_size": "The output grid size...Bottom edge use",
+            "description_output_instructions": "To make the output, you have to...Bottom edge use",
+            "is_verified": false,
+            "confidence": null,
+            "num_verification_attempts": 3,
+            "builds": []
+        },
+        {
+            "description_id": "c81b753d-1667-4f1d-9b4b-e3cf71a88ddf",
+            "task_name": "88a62173.json",
+            "description_input": "In the input, you should see...squares of black and another color.",
+            "description_output_grid_size": "The output grid size...will be 2x2.",
+            "description_output_instructions": "To make the output, you have to...replicate one of the patterns in one of the corners. Bottom right, bottom left, top right, or top left.",
+            "is_verified": true,
+            "confidence": 7,
+            "num_verification_attempts": 2,
+            "builds": [
+                {
+                    "build_id": "GpsslVC81XgIwKOg41xx",
+                    "description_id": "c81b753d-1667-4f1d-9b4b-e3cf71a88ddf",
+                    "is_success": true,
+                    "num_attempts": 2
+                }
+            ]
+        },
+        {
+            "description_id": "df6f9625-4d12-4838-8000-b7627f1bea6f",
+            "task_name": "88a62173.json",
+            "description_input": "In the input, you should see...the patterns shown, some different that wont be the same",
+            "description_output_grid_size": "The output grid size...with each separate pattern the ouput will be zoomed in or just a little bigger",
+            "description_output_instructions": "To make the output, you have to...make a grid to equal the zoomed in pattern, if pattern is not easy choose the smallest and add or keep the same with remaining squares black",
+            "is_verified": false,
+            "confidence": null,
+            "num_verification_attempts": 3,
+            "builds": []
+        },
+        {
+            "description_id": "e4987404-242d-46c3-b1c1-b1487f5407cc",
+            "task_name": "88a62173.json",
+            "description_input": "In the input, you should see...a black cross in the center that divide the four corners into 2x2 blocks with one color and black.",
+            "description_output_grid_size": "The output grid size... should be the same as one of those corners, likely 2x2",
+            "description_output_instructions": "To make the output, you have to... Determine which color is the majority in each corner in the input, and make that 1 square corner the same color in the output. If the color in the corner is even in the input (2 black, 2 colored) make it the color.",
+            "is_verified": false,
+            "confidence": null,
+            "num_verification_attempts": 3,
+            "builds": []
+        }
+    ],
+    "training_grids": [
+        {
+            "input": [
+                [
+                    0,
+                    2,
+                    0,
+                    0,
+                    2
+                ],
+                [
+                    2,
+                    2,
+                    0,
+                    2,
+                    2
+                ],
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    2,
+                    0,
+                    2,
+                    2
+                ],
+                [
+                    2,
+                    2,
+                    0,
+                    2,
+                    0
+                ]
+            ],
+            "output": [
+                [
+                    2,
+                    2
+                ],
+                [
+                    2,
+                    0
+                ]
+            ]
+        },
+        {
+            "input": [
+                [
+                    1,
+                    0,
+                    0,
+                    1,
+                    0
+                ],
+                [
+                    0,
+                    1,
+                    0,
+                    0,
+                    1
+                ],
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    1,
+                    0,
+                    0,
+                    1,
+                    0
+                ],
+                [
+                    1,
+                    1,
+                    0,
+                    0,
+                    1
+                ]
+            ],
+            "output": [
+                [
+                    1,
+                    0
+                ],
+                [
+                    1,
+                    1
+                ]
+            ]
+        },
+        {
+            "input": [
+                [
+                    8,
+                    8,
+                    0,
+                    0,
+                    8
+                ],
+                [
+                    8,
+                    0,
+                    0,
+                    8,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    8,
+                    8,
+                    0,
+                    8,
+                    8
+                ],
+                [
+                    8,
+                    0,
+                    0,
+                    8,
+                    0
+                ]
+            ],
+            "output": [
+                [
+                    0,
+                    8
+                ],
+                [
+                    8,
+                    0
+                ]
+            ]
+        }
+    ],
+    "test_grid": [
+        {
+            "input": [
+                [
+                    5,
+                    5,
+                    0,
+                    5,
+                    0
+                ],
+                [
+                    0,
+                    5,
+                    0,
+                    0,
+                    5
+                ],
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    5,
+                    5,
+                    0,
+                    5,
+                    5
+                ],
+                [
+                    0,
+                    5,
+                    0,
+                    0,
+                    5
+                ]
+            ],
+            "output": [
+                [
+                    5,
+                    0
+                ],
+                [
+                    0,
+                    5
+                ]
+            ]
+        }
+    ]
+}

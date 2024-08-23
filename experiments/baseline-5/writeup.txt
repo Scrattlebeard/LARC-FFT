@@ -1,0 +1,52 @@
+GPT-4o-mini
+Json and PNG
+Prompt 1
+Natural language output
+
+Testset: gpt4_solved-all
+
+Success: 44, Total: 105, Accuracy: 0.41904761904761906
+Solved 017c7c7b.json
+Solved 1bfc4729.json
+Solved 25d8a9c8.json
+Solved 25ff71a9.json
+Solved 3618c87e.json
+Solved 3c9b0459.json
+Solved 445eab21.json
+Solved 5582e5ca.json
+Solved 6150a2bd.json
+Solved 62c24649.json
+Solved 67a3c6ac.json
+Solved 67e8384a.json
+Solved 68b16354.json
+Solved 6d0aefbc.json
+Solved 6e02f1e3.json
+Solved 6fa7a44f.json
+Solved 746b3537.json
+Solved 74dd1130.json
+Solved 794b24be.json
+Solved 7b7f7511.json
+Solved 88a62173.json
+Solved 8be77c9e.json
+Solved 9172f3a0.json
+Solved 9565186b.json
+Solved 963e52fc.json
+Solved 97999447.json
+Solved a416b8f3.json
+Solved a699fb00.json
+Solved a79310a0.json
+Solved a85d4709.json
+Solved aabf363d.json
+Solved b1948b0a.json
+Solved bd4472b8.json
+Solved bda2d7a6.json
+Solved c8f0f002.json
+Solved c9e6f938.json
+Solved c9f8e694.json
+Solved d10ecb37.json
+Solved d511f180.json
+Solved d631b094.json
+Solved d9fac9be.json
+Solved dc433765.json
+Solved e9afcf9a.json
+Solved f76d97a5.json

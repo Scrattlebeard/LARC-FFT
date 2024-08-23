@@ -1,0 +1,382 @@
+{
+    "task_name": "67a3c6ac.json",
+    "task_number": 149,
+    "descriptions": [
+        {
+            "description_id": "686f22be-1635-426f-adbd-72dbe07d9207",
+            "task_name": "67a3c6ac.json",
+            "description_input": "In the input, you should see...a wild pattern of colors",
+            "description_output_grid_size": "The output grid size...same as input",
+            "description_output_instructions": "To make the output, you have to...create a right to left mirror image.",
+            "is_verified": true,
+            "confidence": 10,
+            "num_verification_attempts": 1,
+            "builds": [
+                {
+                    "build_id": "a3NynNNzfZ90zevMtnNK",
+                    "description_id": "686f22be-1635-426f-adbd-72dbe07d9207",
+                    "is_success": false,
+                    "num_attempts": 3
+                },
+                {
+                    "build_id": "vxF2IRn6AXEwDMtpwY55",
+                    "description_id": "686f22be-1635-426f-adbd-72dbe07d9207",
+                    "is_success": true,
+                    "num_attempts": 1
+                }
+            ]
+        },
+        {
+            "description_id": "d39e5d73-1db1-4836-9cc0-03d61605607b",
+            "task_name": "67a3c6ac.json",
+            "description_input": "In the input, you should see...a complex color pattern",
+            "description_output_grid_size": "The output grid size...stay the same as the input",
+            "description_output_instructions": "To make the output, you have to...create a left/ right mirror image of the input",
+            "is_verified": true,
+            "confidence": 7,
+            "num_verification_attempts": 1,
+            "builds": [
+                {
+                    "build_id": "kKk2fcrwWHIwEes9UuhI",
+                    "description_id": "d39e5d73-1db1-4836-9cc0-03d61605607b",
+                    "is_success": true,
+                    "num_attempts": 2
+                },
+                {
+                    "build_id": "mC36zyfGdnt7599m6TzP",
+                    "description_id": "d39e5d73-1db1-4836-9cc0-03d61605607b",
+                    "is_success": true,
+                    "num_attempts": 1
+                }
+            ]
+        }
+    ],
+    "training_grids": [
+        {
+            "input": [
+                [
+                    6,
+                    6,
+                    6,
+                    2
+                ],
+                [
+                    6,
+                    1,
+                    6,
+                    2
+                ],
+                [
+                    7,
+                    2,
+                    7,
+                    2
+                ],
+                [
+                    1,
+                    7,
+                    2,
+                    2
+                ]
+            ],
+            "output": [
+                [
+                    2,
+                    6,
+                    6,
+                    6
+                ],
+                [
+                    2,
+                    6,
+                    1,
+                    6
+                ],
+                [
+                    2,
+                    7,
+                    2,
+                    7
+                ],
+                [
+                    2,
+                    2,
+                    7,
+                    1
+                ]
+            ]
+        },
+        {
+            "input": [
+                [
+                    7,
+                    7,
+                    7,
+                    6,
+                    6,
+                    6,
+                    2
+                ],
+                [
+                    6,
+                    7,
+                    1,
+                    1,
+                    7,
+                    7,
+                    1
+                ],
+                [
+                    7,
+                    7,
+                    2,
+                    1,
+                    2,
+                    6,
+                    6
+                ],
+                [
+                    2,
+                    2,
+                    7,
+                    7,
+                    7,
+                    2,
+                    2
+                ],
+                [
+                    7,
+                    2,
+                    7,
+                    1,
+                    2,
+                    7,
+                    2
+                ],
+                [
+                    6,
+                    6,
+                    6,
+                    2,
+                    2,
+                    1,
+                    1
+                ],
+                [
+                    6,
+                    2,
+                    6,
+                    6,
+                    6,
+                    6,
+                    6
+                ]
+            ],
+            "output": [
+                [
+                    2,
+                    6,
+                    6,
+                    6,
+                    7,
+                    7,
+                    7
+                ],
+                [
+                    1,
+                    7,
+                    7,
+                    1,
+                    1,
+                    7,
+                    6
+                ],
+                [
+                    6,
+                    6,
+                    2,
+                    1,
+                    2,
+                    7,
+                    7
+                ],
+                [
+                    2,
+                    2,
+                    7,
+                    7,
+                    7,
+                    2,
+                    2
+                ],
+                [
+                    2,
+                    7,
+                    2,
+                    1,
+                    7,
+                    2,
+                    7
+                ],
+                [
+                    1,
+                    1,
+                    2,
+                    2,
+                    6,
+                    6,
+                    6
+                ],
+                [
+                    6,
+                    6,
+                    6,
+                    6,
+                    6,
+                    2,
+                    6
+                ]
+            ]
+        },
+        {
+            "input": [
+                [
+                    1,
+                    2,
+                    7,
+                    1,
+                    1,
+                    1
+                ],
+                [
+                    2,
+                    1,
+                    7,
+                    7,
+                    2,
+                    6
+                ],
+                [
+                    2,
+                    1,
+                    2,
+                    6,
+                    2,
+                    1
+                ],
+                [
+                    1,
+                    2,
+                    1,
+                    7,
+                    6,
+                    2
+                ],
+                [
+                    2,
+                    7,
+                    1,
+                    2,
+                    7,
+                    1
+                ],
+                [
+                    2,
+                    1,
+                    6,
+                    2,
+                    7,
+                    7
+                ]
+            ],
+            "output": [
+                [
+                    1,
+                    1,
+                    1,
+                    7,
+                    2,
+                    1
+                ],
+                [
+                    6,
+                    2,
+                    7,
+                    7,
+                    1,
+                    2
+                ],
+                [
+                    1,
+                    2,
+                    6,
+                    2,
+                    1,
+                    2
+                ],
+                [
+                    2,
+                    6,
+                    7,
+                    1,
+                    2,
+                    1
+                ],
+                [
+                    1,
+                    7,
+                    2,
+                    1,
+                    7,
+                    2
+                ],
+                [
+                    7,
+                    7,
+                    2,
+                    6,
+                    1,
+                    2
+                ]
+            ]
+        }
+    ],
+    "test_grid": [
+        {
+            "input": [
+                [
+                    7,
+                    6,
+                    1
+                ],
+                [
+                    6,
+                    7,
+                    6
+                ],
+                [
+                    6,
+                    2,
+                    2
+                ]
+            ],
+            "output": [
+                [
+                    1,
+                    6,
+                    7
+                ],
+                [
+                    6,
+                    7,
+                    6
+                ],
+                [
+                    2,
+                    2,
+                    6
+                ]
+            ]
+        }
+    ]
+}

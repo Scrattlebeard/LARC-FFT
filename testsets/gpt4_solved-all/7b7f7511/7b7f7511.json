@@ -1,0 +1,327 @@
+{
+    "task_name": "7b7f7511.json",
+    "task_number": 187,
+    "descriptions": [
+        {
+            "description_id": "28d3eae9-9243-41ca-b908-07fdc40df633",
+            "task_name": "7b7f7511.json",
+            "description_input": "In the input, you should see...will be half of the input",
+            "description_output_grid_size": "The output grid size...In the input, you should see...will be half of the input",
+            "description_output_instructions": "To make the output, you have to...In the input, you should see...will be half of the input",
+            "is_verified": false,
+            "confidence": null,
+            "num_verification_attempts": 3,
+            "builds": []
+        },
+        {
+            "description_id": "74e74ea7-6c53-4995-a970-50be5c95b9d9",
+            "task_name": "7b7f7511.json",
+            "description_input": "In the input, you should see...colored squares",
+            "description_output_grid_size": "The output grid size...half the input. Cut the long way in half.",
+            "description_output_instructions": "To make the output, you have to...copy one half of the input.",
+            "is_verified": true,
+            "confidence": 6,
+            "num_verification_attempts": 1,
+            "builds": [
+                {
+                    "build_id": "0I1O1qs7tVITNeaJt6dJ",
+                    "description_id": "74e74ea7-6c53-4995-a970-50be5c95b9d9",
+                    "is_success": true,
+                    "num_attempts": 1
+                }
+            ]
+        },
+        {
+            "description_id": "b2e08b50-d885-4a98-bf95-0e75802a52b7",
+            "task_name": "7b7f7511.json",
+            "description_input": "In the input, you should see...colored squares.",
+            "description_output_grid_size": "The output grid size...will be half of the input.",
+            "description_output_instructions": "To make the output, you have to...copy one half of the input.",
+            "is_verified": true,
+            "confidence": 7,
+            "num_verification_attempts": 1,
+            "builds": [
+                {
+                    "build_id": "L82AjZlPjCFqy5PWcyGN",
+                    "description_id": "b2e08b50-d885-4a98-bf95-0e75802a52b7",
+                    "is_success": true,
+                    "num_attempts": 1
+                }
+            ]
+        },
+        {
+            "description_id": "e91e48a1-6f0c-4189-b34c-8a24a29ce01d",
+            "task_name": "7b7f7511.json",
+            "description_input": "In the input, you should see...colored squares",
+            "description_output_grid_size": "The output grid size...will be half of the input",
+            "description_output_instructions": "To make the output, you have to...copy one half of the input",
+            "is_verified": false,
+            "confidence": null,
+            "num_verification_attempts": 3,
+            "builds": []
+        },
+        {
+            "description_id": "ed758369-6033-4097-af9f-6c0b3d1a4a10",
+            "task_name": "7b7f7511.json",
+            "description_input": "In the input, you should see...colored squares.",
+            "description_output_grid_size": "The output grid size...half the size of the input.",
+            "description_output_instructions": "To make the output, you have to...get rid off one half of the input, may it be right, left or bottom half.",
+            "is_verified": true,
+            "confidence": 9,
+            "num_verification_attempts": 1,
+            "builds": [
+                {
+                    "build_id": "7q8taMGL5XJrxbf8ZTep",
+                    "description_id": "ed758369-6033-4097-af9f-6c0b3d1a4a10",
+                    "is_success": true,
+                    "num_attempts": 2
+                }
+            ]
+        },
+        {
+            "description_id": "ef856ebf-d05f-471b-913e-fba6fa378708",
+            "task_name": "7b7f7511.json",
+            "description_input": "In the input, you should see...colored squares with a pattern",
+            "description_output_grid_size": "The output grid size... is half of the input",
+            "description_output_instructions": "To make the output, you have to...cut the grid in half to take away one of the patterns and leave one of the patterns",
+            "is_verified": true,
+            "confidence": 8,
+            "num_verification_attempts": 2,
+            "builds": [
+                {
+                    "build_id": "k2dwkqUuQcI824uwfvw9",
+                    "description_id": "ef856ebf-d05f-471b-913e-fba6fa378708",
+                    "is_success": true,
+                    "num_attempts": 1
+                }
+            ]
+        }
+    ],
+    "training_grids": [
+        {
+            "input": [
+                [
+                    1,
+                    1,
+                    3,
+                    2,
+                    1,
+                    1,
+                    3,
+                    2
+                ],
+                [
+                    1,
+                    1,
+                    3,
+                    3,
+                    1,
+                    1,
+                    3,
+                    3
+                ],
+                [
+                    3,
+                    3,
+                    1,
+                    1,
+                    3,
+                    3,
+                    1,
+                    1
+                ],
+                [
+                    2,
+                    3,
+                    1,
+                    1,
+                    2,
+                    3,
+                    1,
+                    1
+                ]
+            ],
+            "output": [
+                [
+                    1,
+                    1,
+                    3,
+                    2
+                ],
+                [
+                    1,
+                    1,
+                    3,
+                    3
+                ],
+                [
+                    3,
+                    3,
+                    1,
+                    1
+                ],
+                [
+                    2,
+                    3,
+                    1,
+                    1
+                ]
+            ]
+        },
+        {
+            "input": [
+                [
+                    4,
+                    4,
+                    4,
+                    4,
+                    4,
+                    4
+                ],
+                [
+                    6,
+                    4,
+                    8,
+                    6,
+                    4,
+                    8
+                ],
+                [
+                    6,
+                    6,
+                    8,
+                    6,
+                    6,
+                    8
+                ]
+            ],
+            "output": [
+                [
+                    4,
+                    4,
+                    4
+                ],
+                [
+                    6,
+                    4,
+                    8
+                ],
+                [
+                    6,
+                    6,
+                    8
+                ]
+            ]
+        },
+        {
+            "input": [
+                [
+                    2,
+                    3
+                ],
+                [
+                    3,
+                    2
+                ],
+                [
+                    4,
+                    4
+                ],
+                [
+                    2,
+                    3
+                ],
+                [
+                    3,
+                    2
+                ],
+                [
+                    4,
+                    4
+                ]
+            ],
+            "output": [
+                [
+                    2,
+                    3
+                ],
+                [
+                    3,
+                    2
+                ],
+                [
+                    4,
+                    4
+                ]
+            ]
+        }
+    ],
+    "test_grid": [
+        {
+            "input": [
+                [
+                    5,
+                    4,
+                    5
+                ],
+                [
+                    4,
+                    5,
+                    4
+                ],
+                [
+                    6,
+                    6,
+                    4
+                ],
+                [
+                    2,
+                    6,
+                    2
+                ],
+                [
+                    5,
+                    4,
+                    5
+                ],
+                [
+                    4,
+                    5,
+                    4
+                ],
+                [
+                    6,
+                    6,
+                    4
+                ],
+                [
+                    2,
+                    6,
+                    2
+                ]
+            ],
+            "output": [
+                [
+                    5,
+                    4,
+                    5
+                ],
+                [
+                    4,
+                    5,
+                    4
+                ],
+                [
+                    6,
+                    6,
+                    4
+                ],
+                [
+                    2,
+                    6,
+                    2
+                ]
+            ]
+        }
+    ]
+}

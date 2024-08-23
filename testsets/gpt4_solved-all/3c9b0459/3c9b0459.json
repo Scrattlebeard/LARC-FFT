@@ -1,0 +1,280 @@
+{
+    "task_name": "3c9b0459.json",
+    "task_number": 86,
+    "descriptions": [
+        {
+            "description_id": "234d5f64-9f59-4a5e-9b09-87ff2b055960",
+            "task_name": "3c9b0459.json",
+            "description_input": "In the input, you should see...colored blocks in a grid",
+            "description_output_grid_size": "The output grid size...same as input",
+            "description_output_instructions": "To make the output, you have to...rotate the grid 180 degrees clockwise. That's it. Just fill in the grid with the original colors as if the grid rotated twice to the right (180 degrees).",
+            "is_verified": true,
+            "confidence": 10,
+            "num_verification_attempts": 1,
+            "builds": [
+                {
+                    "build_id": "26LIf7CWPa35jXJfRrgU",
+                    "description_id": "234d5f64-9f59-4a5e-9b09-87ff2b055960",
+                    "is_success": false,
+                    "num_attempts": 3
+                }
+            ]
+        },
+        {
+            "description_id": "25aa86c2-6120-4847-b73e-1d4e52e970b1",
+            "task_name": "3c9b0459.json",
+            "description_input": "In the input, you should see...Change position for every grid.",
+            "description_output_grid_size": "The output grid size...Change position for every grid.",
+            "description_output_instructions": "To make the output, you have to...change position for every grid..",
+            "is_verified": true,
+            "confidence": 10,
+            "num_verification_attempts": 2,
+            "builds": [
+                {
+                    "build_id": "HDFhY4CIWhXCziSO7duy",
+                    "description_id": "25aa86c2-6120-4847-b73e-1d4e52e970b1",
+                    "is_success": false,
+                    "num_attempts": 3
+                }
+            ]
+        },
+        {
+            "description_id": "670a5bc7-68d6-496b-97ed-7c09bd7260b3",
+            "task_name": "3c9b0459.json",
+            "description_input": "In the input, you should see...3by3 grid",
+            "description_output_grid_size": "The output grid size...remains the same",
+            "description_output_instructions": "To make the output, you have to...reflect the grid",
+            "is_verified": true,
+            "confidence": 10,
+            "num_verification_attempts": 3,
+            "builds": [
+                {
+                    "build_id": "qZoIg257Nss2Rswq0df5",
+                    "description_id": "670a5bc7-68d6-496b-97ed-7c09bd7260b3",
+                    "is_success": false,
+                    "num_attempts": 3
+                }
+            ]
+        },
+        {
+            "description_id": "798c5554-242c-4d50-a8bc-c2eda29326e0",
+            "task_name": "3c9b0459.json",
+            "description_input": "In the input, you should see... a grid of colored pixels.",
+            "description_output_grid_size": "The output grid size... is the same as the input.",
+            "description_output_instructions": "To make the output, you have to...  Create the same pattern as the input, just rotated 180 degrees.  Done.",
+            "is_verified": true,
+            "confidence": 9,
+            "num_verification_attempts": 1,
+            "builds": [
+                {
+                    "build_id": "x5kOstNtribjwzYXOv1x",
+                    "description_id": "798c5554-242c-4d50-a8bc-c2eda29326e0",
+                    "is_success": true,
+                    "num_attempts": 1
+                }
+            ]
+        },
+        {
+            "description_id": "91a2f5b0-5513-4332-a6db-4b82256bf4bf",
+            "task_name": "3c9b0459.json",
+            "description_input": "In the input, you should see...pattern rectangle",
+            "description_output_grid_size": "The output grid size...turn twice",
+            "description_output_instructions": "To make the output, you have to...turn color block",
+            "is_verified": true,
+            "confidence": 10,
+            "num_verification_attempts": 1,
+            "builds": [
+                {
+                    "build_id": "j5Q0tA9dr2UQ8UJVqsyW",
+                    "description_id": "91a2f5b0-5513-4332-a6db-4b82256bf4bf",
+                    "is_success": false,
+                    "num_attempts": 3
+                }
+            ]
+        }
+    ],
+    "training_grids": [
+        {
+            "input": [
+                [
+                    2,
+                    2,
+                    1
+                ],
+                [
+                    2,
+                    1,
+                    2
+                ],
+                [
+                    2,
+                    8,
+                    1
+                ]
+            ],
+            "output": [
+                [
+                    1,
+                    8,
+                    2
+                ],
+                [
+                    2,
+                    1,
+                    2
+                ],
+                [
+                    1,
+                    2,
+                    2
+                ]
+            ]
+        },
+        {
+            "input": [
+                [
+                    9,
+                    2,
+                    4
+                ],
+                [
+                    2,
+                    4,
+                    4
+                ],
+                [
+                    2,
+                    9,
+                    2
+                ]
+            ],
+            "output": [
+                [
+                    2,
+                    9,
+                    2
+                ],
+                [
+                    4,
+                    4,
+                    2
+                ],
+                [
+                    4,
+                    2,
+                    9
+                ]
+            ]
+        },
+        {
+            "input": [
+                [
+                    8,
+                    8,
+                    8
+                ],
+                [
+                    5,
+                    5,
+                    8
+                ],
+                [
+                    8,
+                    5,
+                    5
+                ]
+            ],
+            "output": [
+                [
+                    5,
+                    5,
+                    8
+                ],
+                [
+                    8,
+                    5,
+                    5
+                ],
+                [
+                    8,
+                    8,
+                    8
+                ]
+            ]
+        },
+        {
+            "input": [
+                [
+                    3,
+                    2,
+                    9
+                ],
+                [
+                    9,
+                    9,
+                    9
+                ],
+                [
+                    2,
+                    3,
+                    3
+                ]
+            ],
+            "output": [
+                [
+                    3,
+                    3,
+                    2
+                ],
+                [
+                    9,
+                    9,
+                    9
+                ],
+                [
+                    9,
+                    2,
+                    3
+                ]
+            ]
+        }
+    ],
+    "test_grid": [
+        {
+            "input": [
+                [
+                    6,
+                    4,
+                    4
+                ],
+                [
+                    6,
+                    6,
+                    4
+                ],
+                [
+                    4,
+                    6,
+                    7
+                ]
+            ],
+            "output": [
+                [
+                    7,
+                    6,
+                    4
+                ],
+                [
+                    4,
+                    6,
+                    6
+                ],
+                [
+                    4,
+                    4,
+                    6
+                ]
+            ]
+        }
+    ]
+}

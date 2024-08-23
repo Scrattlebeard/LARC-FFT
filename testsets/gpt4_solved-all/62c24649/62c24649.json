@@ -1,0 +1,345 @@
+{
+    "task_name": "62c24649.json",
+    "task_number": 141,
+    "descriptions": [
+        {
+            "description_id": "051f7230-d71f-4f76-9f50-c15acc65ad0d",
+            "task_name": "62c24649.json",
+            "description_input": "In the input, you should see... a 3x3 grid with red blue and green colors.",
+            "description_output_grid_size": "The output grid size...is 6x6",
+            "description_output_instructions": "To make the output, you have to...place the input grid in the top left 3x3. Then, reflect the top left 3x3 and place it in the top right 3x3. Now, reflect the top left and right 3x3 and place in the bottom left and right 3x3.",
+            "is_verified": true,
+            "confidence": 10,
+            "num_verification_attempts": 1,
+            "builds": [
+                {
+                    "build_id": "7UQnQuGLBJjORaYK3roY",
+                    "description_id": "051f7230-d71f-4f76-9f50-c15acc65ad0d",
+                    "is_success": true,
+                    "num_attempts": 2
+                },
+                {
+                    "build_id": "aI4psd7hFDUuZs3nx1U4",
+                    "description_id": "051f7230-d71f-4f76-9f50-c15acc65ad0d",
+                    "is_success": true,
+                    "num_attempts": 1
+                }
+            ]
+        },
+        {
+            "description_id": "7205a1f8-a911-40e3-94a7-ebefefe4d6cd",
+            "task_name": "62c24649.json",
+            "description_input": "In the input, you should see...a 3x3 grid with red, blue, black and green boxes.",
+            "description_output_grid_size": "The output grid size...will be 6x6 so it can hold four 3x3 grids within it.",
+            "description_output_instructions": "To make the output, you have to...place the original 3x3 grid in the upper left corner. Then the 3 remaining corners are simply mirrors of the original box pattern.",
+            "is_verified": true,
+            "confidence": 8,
+            "num_verification_attempts": 1,
+            "builds": [
+                {
+                    "build_id": "KTH3SVs5GAozzxPbBHXT",
+                    "description_id": "7205a1f8-a911-40e3-94a7-ebefefe4d6cd",
+                    "is_success": false,
+                    "num_attempts": 3
+                },
+                {
+                    "build_id": "WhxsMe1lfJlKKPfhHOvL",
+                    "description_id": "7205a1f8-a911-40e3-94a7-ebefefe4d6cd",
+                    "is_success": false,
+                    "num_attempts": 3
+                }
+            ]
+        },
+        {
+            "description_id": "732574d6-89e2-4164-b701-d75cabc82e4e",
+            "task_name": "62c24649.json",
+            "description_input": "In the input, you should see... 3 green blocks in the top row, 2 red blocks in the second row, and 2 blue blocks in the third row.",
+            "description_output_grid_size": "The output grid size... should be 6x6",
+            "description_output_instructions": "To make the output, you have to... make the top and bottom row all green. Make rows 2 and 5 all red with black as the first and last block. Make 2 2x2 blue squares in rows 3 and 4 with a 2x2 black square in the middle.",
+            "is_verified": false,
+            "confidence": null,
+            "num_verification_attempts": 3,
+            "builds": []
+        }
+    ],
+    "training_grids": [
+        {
+            "input": [
+                [
+                    3,
+                    3,
+                    3
+                ],
+                [
+                    0,
+                    2,
+                    2
+                ],
+                [
+                    1,
+                    1,
+                    0
+                ]
+            ],
+            "output": [
+                [
+                    3,
+                    3,
+                    3,
+                    3,
+                    3,
+                    3
+                ],
+                [
+                    0,
+                    2,
+                    2,
+                    2,
+                    2,
+                    0
+                ],
+                [
+                    1,
+                    1,
+                    0,
+                    0,
+                    1,
+                    1
+                ],
+                [
+                    1,
+                    1,
+                    0,
+                    0,
+                    1,
+                    1
+                ],
+                [
+                    0,
+                    2,
+                    2,
+                    2,
+                    2,
+                    0
+                ],
+                [
+                    3,
+                    3,
+                    3,
+                    3,
+                    3,
+                    3
+                ]
+            ]
+        },
+        {
+            "input": [
+                [
+                    3,
+                    3,
+                    1
+                ],
+                [
+                    1,
+                    3,
+                    0
+                ],
+                [
+                    0,
+                    2,
+                    2
+                ]
+            ],
+            "output": [
+                [
+                    3,
+                    3,
+                    1,
+                    1,
+                    3,
+                    3
+                ],
+                [
+                    1,
+                    3,
+                    0,
+                    0,
+                    3,
+                    1
+                ],
+                [
+                    0,
+                    2,
+                    2,
+                    2,
+                    2,
+                    0
+                ],
+                [
+                    0,
+                    2,
+                    2,
+                    2,
+                    2,
+                    0
+                ],
+                [
+                    1,
+                    3,
+                    0,
+                    0,
+                    3,
+                    1
+                ],
+                [
+                    3,
+                    3,
+                    1,
+                    1,
+                    3,
+                    3
+                ]
+            ]
+        },
+        {
+            "input": [
+                [
+                    2,
+                    1,
+                    0
+                ],
+                [
+                    0,
+                    2,
+                    3
+                ],
+                [
+                    0,
+                    3,
+                    0
+                ]
+            ],
+            "output": [
+                [
+                    2,
+                    1,
+                    0,
+                    0,
+                    1,
+                    2
+                ],
+                [
+                    0,
+                    2,
+                    3,
+                    3,
+                    2,
+                    0
+                ],
+                [
+                    0,
+                    3,
+                    0,
+                    0,
+                    3,
+                    0
+                ],
+                [
+                    0,
+                    3,
+                    0,
+                    0,
+                    3,
+                    0
+                ],
+                [
+                    0,
+                    2,
+                    3,
+                    3,
+                    2,
+                    0
+                ],
+                [
+                    2,
+                    1,
+                    0,
+                    0,
+                    1,
+                    2
+                ]
+            ]
+        }
+    ],
+    "test_grid": [
+        {
+            "input": [
+                [
+                    1,
+                    1,
+                    0
+                ],
+                [
+                    0,
+                    3,
+                    2
+                ],
+                [
+                    3,
+                    3,
+                    0
+                ]
+            ],
+            "output": [
+                [
+                    1,
+                    1,
+                    0,
+                    0,
+                    1,
+                    1
+                ],
+                [
+                    0,
+                    3,
+                    2,
+                    2,
+                    3,
+                    0
+                ],
+                [
+                    3,
+                    3,
+                    0,
+                    0,
+                    3,
+                    3
+                ],
+                [
+                    3,
+                    3,
+                    0,
+                    0,
+                    3,
+                    3
+                ],
+                [
+                    0,
+                    3,
+                    2,
+                    2,
+                    3,
+                    0
+                ],
+                [
+                    1,
+                    1,
+                    0,
+                    0,
+                    1,
+                    1
+                ]
+            ]
+        }
+    ]
+}

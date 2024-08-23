@@ -1,0 +1,211 @@
+{
+    "task_name": "d631b094.json",
+    "task_number": 338,
+    "descriptions": [
+        {
+            "description_id": "34c7b94d-5111-4bb5-8fce-d9338b9e83cb",
+            "task_name": "d631b094.json",
+            "description_input": "In the input, you should see...one color of blocks on a black background",
+            "description_output_grid_size": "The output grid size...is one block tall and the same amount of blocks wide as the number of colored blocks in the input grid",
+            "description_output_instructions": "To make the output, you have to...color the whole output grid the color of the colored input grid blocks so there is a horizontal line of colored blocks",
+            "is_verified": true,
+            "confidence": 10,
+            "num_verification_attempts": 1,
+            "builds": [
+                {
+                    "build_id": "9DDCmr4pkrRigPw3m2zD",
+                    "description_id": "34c7b94d-5111-4bb5-8fce-d9338b9e83cb",
+                    "is_success": false,
+                    "num_attempts": 3
+                },
+                {
+                    "build_id": "B1gHqcvDQ48bNcH91adV",
+                    "description_id": "34c7b94d-5111-4bb5-8fce-d9338b9e83cb",
+                    "is_success": true,
+                    "num_attempts": 1
+                },
+                {
+                    "build_id": "EOUIohe2HeD9mshUjUtO",
+                    "description_id": "34c7b94d-5111-4bb5-8fce-d9338b9e83cb",
+                    "is_success": false,
+                    "num_attempts": 3
+                },
+                {
+                    "build_id": "jrDLXGQlC2MuSxSjJylP",
+                    "description_id": "34c7b94d-5111-4bb5-8fce-d9338b9e83cb",
+                    "is_success": false,
+                    "num_attempts": 3
+                },
+                {
+                    "build_id": "xJVWu1dbGfgisVWl3nCz",
+                    "description_id": "34c7b94d-5111-4bb5-8fce-d9338b9e83cb",
+                    "is_success": true,
+                    "num_attempts": 1
+                }
+            ]
+        },
+        {
+            "description_id": "ed6bd5d7-182a-4b51-b61d-d14581ec561c",
+            "task_name": "d631b094.json",
+            "description_input": "In the input, you should see...a grid with one color squares and black squares",
+            "description_output_grid_size": "The output grid size...be a horizontal line with the number of colored squares.",
+            "description_output_instructions": "To make the output, you have to...make the squares the same color as the colored squares.",
+            "is_verified": true,
+            "confidence": 3,
+            "num_verification_attempts": 1,
+            "builds": []
+        },
+        {
+            "description_id": "fd1e553e-f134-4d4a-b845-7f68d96c1c48",
+            "task_name": "d631b094.json",
+            "description_input": "In the input, you should see...one colored box and few black box",
+            "description_output_grid_size": "The output grid size...only two box",
+            "description_output_instructions": "To make the output, you have to...fill only the colored one",
+            "is_verified": true,
+            "confidence": 9,
+            "num_verification_attempts": 1,
+            "builds": [
+                {
+                    "build_id": "8wqioFUmdCMVn2gdVcLt",
+                    "description_id": "fd1e553e-f134-4d4a-b845-7f68d96c1c48",
+                    "is_success": false,
+                    "num_attempts": 3
+                }
+            ]
+        }
+    ],
+    "training_grids": [
+        {
+            "input": [
+                [
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    1,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    1,
+                    0
+                ]
+            ],
+            "output": [
+                [
+                    1,
+                    1
+                ]
+            ]
+        },
+        {
+            "input": [
+                [
+                    0,
+                    2,
+                    0
+                ],
+                [
+                    2,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    2,
+                    0
+                ]
+            ],
+            "output": [
+                [
+                    2,
+                    2,
+                    2
+                ]
+            ]
+        },
+        {
+            "input": [
+                [
+                    0,
+                    7,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "output": [
+                [
+                    7
+                ]
+            ]
+        },
+        {
+            "input": [
+                [
+                    0,
+                    8,
+                    0
+                ],
+                [
+                    8,
+                    8,
+                    0
+                ],
+                [
+                    8,
+                    0,
+                    0
+                ]
+            ],
+            "output": [
+                [
+                    8,
+                    8,
+                    8,
+                    8
+                ]
+            ]
+        }
+    ],
+    "test_grid": [
+        {
+            "input": [
+                [
+                    4,
+                    4,
+                    0
+                ],
+                [
+                    4,
+                    0,
+                    4
+                ],
+                [
+                    0,
+                    0,
+                    4
+                ]
+            ],
+            "output": [
+                [
+                    4,
+                    4,
+                    4,
+                    4,
+                    4
+                ]
+            ]
+        }
+    ]
+}

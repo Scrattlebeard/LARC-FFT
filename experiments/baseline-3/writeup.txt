@@ -1,0 +1,12 @@
+GPT-4o-mini
+Json and PNG
+Prompt 1
+Natural language output
+
+Testset: gpt4_solved-10-random
+
+Success: 4, Total: 10, Accuracy: 0.4
+Solved 9172f3a0.json
+Solved c59eb873.json
+Solved d037b0a7.json
+Solved ea32f347.json

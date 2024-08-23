@@ -1,0 +1,286 @@
+{
+    "task_name": "25ff71a9.json",
+    "task_number": 52,
+    "descriptions": [
+        {
+            "description_id": "5d6c6dd3-348d-460f-8ecc-43bc28aed02f",
+            "task_name": "25ff71a9.json",
+            "description_input": "In the input, you should see...3 by 3 grid blue color grid on black background",
+            "description_output_grid_size": "The output grid size...same as input size",
+            "description_output_instructions": "To make the output, you have to...move all the blue color move down  by one grid",
+            "is_verified": true,
+            "confidence": 10,
+            "num_verification_attempts": 1,
+            "builds": [
+                {
+                    "build_id": "ESeAvppZVf1IBHVIm858",
+                    "description_id": "5d6c6dd3-348d-460f-8ecc-43bc28aed02f",
+                    "is_success": false,
+                    "num_attempts": 3
+                },
+                {
+                    "build_id": "ZqFafAPn9OWv8yMkokpI",
+                    "description_id": "5d6c6dd3-348d-460f-8ecc-43bc28aed02f",
+                    "is_success": true,
+                    "num_attempts": 2
+                },
+                {
+                    "build_id": "cTLLStlhClLE4qtfSa50",
+                    "description_id": "5d6c6dd3-348d-460f-8ecc-43bc28aed02f",
+                    "is_success": true,
+                    "num_attempts": 1
+                },
+                {
+                    "build_id": "pcD1U7P0thKy4ZdRzXsA",
+                    "description_id": "5d6c6dd3-348d-460f-8ecc-43bc28aed02f",
+                    "is_success": false,
+                    "num_attempts": 3
+                }
+            ]
+        },
+        {
+            "description_id": "7541b368-146a-4a5a-8e16-07e2bdefcdc5",
+            "task_name": "25ff71a9.json",
+            "description_input": "In the input, you should see...3 blue cell",
+            "description_output_grid_size": "The output grid size...is the same size as the input grid",
+            "description_output_instructions": "To make the output, you have to...drop 3 blue cell down one cell as a group",
+            "is_verified": true,
+            "confidence": 9,
+            "num_verification_attempts": 3,
+            "builds": [
+                {
+                    "build_id": "YslbtSMbim6ZywBqB9eC",
+                    "description_id": "7541b368-146a-4a5a-8e16-07e2bdefcdc5",
+                    "is_success": false,
+                    "num_attempts": 3
+                },
+                {
+                    "build_id": "zuC3vBibDraSsVWhRsnJ",
+                    "description_id": "7541b368-146a-4a5a-8e16-07e2bdefcdc5",
+                    "is_success": false,
+                    "num_attempts": 3
+                }
+            ]
+        }
+    ],
+    "training_grids": [
+        {
+            "input": [
+                [
+                    1,
+                    1,
+                    1
+                ],
+                [
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "output": [
+                [
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    1,
+                    1,
+                    1
+                ],
+                [
+                    0,
+                    0,
+                    0
+                ]
+            ]
+        },
+        {
+            "input": [
+                [
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    1,
+                    1,
+                    1
+                ],
+                [
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "output": [
+                [
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    1,
+                    1,
+                    1
+                ]
+            ]
+        },
+        {
+            "input": [
+                [
+                    0,
+                    1,
+                    0
+                ],
+                [
+                    1,
+                    1,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "output": [
+                [
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    1,
+                    0
+                ],
+                [
+                    1,
+                    1,
+                    0
+                ]
+            ]
+        },
+        {
+            "input": [
+                [
+                    0,
+                    2,
+                    2
+                ],
+                [
+                    0,
+                    0,
+                    2
+                ],
+                [
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "output": [
+                [
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    2,
+                    2
+                ],
+                [
+                    0,
+                    0,
+                    2
+                ]
+            ]
+        }
+    ],
+    "test_grid": [
+        {
+            "input": [
+                [
+                    2,
+                    0,
+                    0
+                ],
+                [
+                    2,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "output": [
+                [
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    2,
+                    0,
+                    0
+                ],
+                [
+                    2,
+                    0,
+                    0
+                ]
+            ]
+        },
+        {
+            "input": [
+                [
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    1,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "output": [
+                [
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    1,
+                    0
+                ]
+            ]
+        }
+    ]
+}

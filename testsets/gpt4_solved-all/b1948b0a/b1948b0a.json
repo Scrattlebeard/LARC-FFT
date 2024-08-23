@@ -1,0 +1,298 @@
+{
+    "task_name": "b1948b0a.json",
+    "task_number": 275,
+    "descriptions": [
+        {
+            "description_id": "2967c930-e725-407e-83d4-a9ea7e137d5d",
+            "task_name": "b1948b0a.json",
+            "description_input": "In the input, you should see...two different color squares",
+            "description_output_grid_size": "The output grid size...the same size as the input",
+            "description_output_instructions": "To make the output, you have to...replace all the purple squares with red.",
+            "is_verified": true,
+            "confidence": 10,
+            "num_verification_attempts": 1,
+            "builds": [
+                {
+                    "build_id": "PrffCcmFWDEitHR8cuot",
+                    "description_id": "2967c930-e725-407e-83d4-a9ea7e137d5d",
+                    "is_success": true,
+                    "num_attempts": 1
+                },
+                {
+                    "build_id": "wOaE0rPu6DAvjf9j1ZH7",
+                    "description_id": "2967c930-e725-407e-83d4-a9ea7e137d5d",
+                    "is_success": true,
+                    "num_attempts": 1
+                }
+            ]
+        },
+        {
+            "description_id": "f32b064c-3e97-46b0-961b-8f9344da3733",
+            "task_name": "b1948b0a.json",
+            "description_input": "In the input, you should see...two colors, one of which is orange.",
+            "description_output_grid_size": "The output grid size... is the same as the input size",
+            "description_output_instructions": "To make the output, you have to... turn the not-orange color into light red.",
+            "is_verified": true,
+            "confidence": 10,
+            "num_verification_attempts": 1,
+            "builds": [
+                {
+                    "build_id": "3U1lWIvMA0CbYLDFFhot",
+                    "description_id": "f32b064c-3e97-46b0-961b-8f9344da3733",
+                    "is_success": true,
+                    "num_attempts": 2
+                },
+                {
+                    "build_id": "Pu8W05BPJOYEzSRkgtMr",
+                    "description_id": "f32b064c-3e97-46b0-961b-8f9344da3733",
+                    "is_success": true,
+                    "num_attempts": 1
+                },
+                {
+                    "build_id": "PyfzLvbRM788UgvhQzXM",
+                    "description_id": "f32b064c-3e97-46b0-961b-8f9344da3733",
+                    "is_success": true,
+                    "num_attempts": 1
+                },
+                {
+                    "build_id": "zdDjaoSYJfiunr8mgCdU",
+                    "description_id": "f32b064c-3e97-46b0-961b-8f9344da3733",
+                    "is_success": true,
+                    "num_attempts": 1
+                }
+            ]
+        }
+    ],
+    "training_grids": [
+        {
+            "input": [
+                [
+                    6,
+                    6,
+                    7,
+                    6
+                ],
+                [
+                    6,
+                    6,
+                    7,
+                    7
+                ],
+                [
+                    7,
+                    7,
+                    6,
+                    7
+                ]
+            ],
+            "output": [
+                [
+                    2,
+                    2,
+                    7,
+                    2
+                ],
+                [
+                    2,
+                    2,
+                    7,
+                    7
+                ],
+                [
+                    7,
+                    7,
+                    2,
+                    7
+                ]
+            ]
+        },
+        {
+            "input": [
+                [
+                    7,
+                    7,
+                    7,
+                    6
+                ],
+                [
+                    6,
+                    6,
+                    7,
+                    6
+                ],
+                [
+                    7,
+                    7,
+                    6,
+                    7
+                ],
+                [
+                    7,
+                    6,
+                    7,
+                    7
+                ],
+                [
+                    7,
+                    6,
+                    7,
+                    6
+                ],
+                [
+                    6,
+                    6,
+                    6,
+                    7
+                ]
+            ],
+            "output": [
+                [
+                    7,
+                    7,
+                    7,
+                    2
+                ],
+                [
+                    2,
+                    2,
+                    7,
+                    2
+                ],
+                [
+                    7,
+                    7,
+                    2,
+                    7
+                ],
+                [
+                    7,
+                    2,
+                    7,
+                    7
+                ],
+                [
+                    7,
+                    2,
+                    7,
+                    2
+                ],
+                [
+                    2,
+                    2,
+                    2,
+                    7
+                ]
+            ]
+        },
+        {
+            "input": [
+                [
+                    7,
+                    7,
+                    6,
+                    6,
+                    6,
+                    6
+                ],
+                [
+                    6,
+                    7,
+                    6,
+                    7,
+                    7,
+                    7
+                ],
+                [
+                    7,
+                    6,
+                    7,
+                    7,
+                    6,
+                    7
+                ]
+            ],
+            "output": [
+                [
+                    7,
+                    7,
+                    2,
+                    2,
+                    2,
+                    2
+                ],
+                [
+                    2,
+                    7,
+                    2,
+                    7,
+                    7,
+                    7
+                ],
+                [
+                    7,
+                    2,
+                    7,
+                    7,
+                    2,
+                    7
+                ]
+            ]
+        }
+    ],
+    "test_grid": [
+        {
+            "input": [
+                [
+                    6,
+                    7,
+                    7,
+                    6
+                ],
+                [
+                    6,
+                    7,
+                    6,
+                    7
+                ],
+                [
+                    7,
+                    7,
+                    7,
+                    6
+                ],
+                [
+                    7,
+                    6,
+                    7,
+                    6
+                ]
+            ],
+            "output": [
+                [
+                    2,
+                    7,
+                    7,
+                    2
+                ],
+                [
+                    2,
+                    7,
+                    2,
+                    7
+                ],
+                [
+                    7,
+                    7,
+                    7,
+                    2
+                ],
+                [
+                    7,
+                    2,
+                    7,
+                    2
+                ]
+            ]
+        }
+    ]
+}

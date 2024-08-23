@@ -1,0 +1,14 @@
+gpt-4o-2024-08-06
+Json and PNG
+Prompt 1
+Natural language output
+
+Testset: gpt4_solved-10-random
+
+Success: 6, Total: 10, Accuracy: 0.6
+Solved 272f95fa.json
+Solved 445eab21.json
+Solved 6f8cd79b.json
+Solved 9172f3a0.json
+Solved c59eb873.json
+Solved d037b0a7.json

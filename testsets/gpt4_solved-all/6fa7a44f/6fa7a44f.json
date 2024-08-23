@@ -1,0 +1,307 @@
+{
+    "task_name": "6fa7a44f.json",
+    "task_number": 171,
+    "descriptions": [
+        {
+            "description_id": "07a598c1-04fb-427b-aa82-2d25f9896752",
+            "task_name": "6fa7a44f.json",
+            "description_input": "In the input, you should see...a 3x3 pattern.",
+            "description_output_grid_size": "The output grid size...is 3x6 vertical grid.",
+            "description_output_instructions": "To make the output, you have to...place the input grid in the top 3x3 space and create a mirror image in the bottom 3x3 space.",
+            "is_verified": true,
+            "confidence": 10,
+            "num_verification_attempts": 1,
+            "builds": [
+                {
+                    "build_id": "QHGe99N62zwK0xD3ggK0",
+                    "description_id": "07a598c1-04fb-427b-aa82-2d25f9896752",
+                    "is_success": true,
+                    "num_attempts": 1
+                },
+                {
+                    "build_id": "v97DIDdNwPpTiC7shYI2",
+                    "description_id": "07a598c1-04fb-427b-aa82-2d25f9896752",
+                    "is_success": true,
+                    "num_attempts": 1
+                }
+            ]
+        },
+        {
+            "description_id": "3712e7a9-f3a8-4fc9-b5ae-efe39f90d973",
+            "task_name": "6fa7a44f.json",
+            "description_input": "In the input, you should see...a 3x3 pattern grid.",
+            "description_output_grid_size": "The output grid size...should be 3x6 grid.",
+            "description_output_instructions": "To make the output, you have to...mirror the exact pattern of the 3x3 grid at the bottom.",
+            "is_verified": true,
+            "confidence": 9,
+            "num_verification_attempts": 1,
+            "builds": [
+                {
+                    "build_id": "2vlFVdVm7m11oO5pxP2R",
+                    "description_id": "3712e7a9-f3a8-4fc9-b5ae-efe39f90d973",
+                    "is_success": false,
+                    "num_attempts": 3
+                }
+            ]
+        }
+    ],
+    "training_grids": [
+        {
+            "input": [
+                [
+                    9,
+                    1,
+                    4
+                ],
+                [
+                    9,
+                    1,
+                    4
+                ],
+                [
+                    2,
+                    1,
+                    1
+                ]
+            ],
+            "output": [
+                [
+                    9,
+                    1,
+                    4
+                ],
+                [
+                    9,
+                    1,
+                    4
+                ],
+                [
+                    2,
+                    1,
+                    1
+                ],
+                [
+                    2,
+                    1,
+                    1
+                ],
+                [
+                    9,
+                    1,
+                    4
+                ],
+                [
+                    9,
+                    1,
+                    4
+                ]
+            ]
+        },
+        {
+            "input": [
+                [
+                    4,
+                    8,
+                    4
+                ],
+                [
+                    7,
+                    6,
+                    7
+                ],
+                [
+                    8,
+                    7,
+                    8
+                ]
+            ],
+            "output": [
+                [
+                    4,
+                    8,
+                    4
+                ],
+                [
+                    7,
+                    6,
+                    7
+                ],
+                [
+                    8,
+                    7,
+                    8
+                ],
+                [
+                    8,
+                    7,
+                    8
+                ],
+                [
+                    7,
+                    6,
+                    7
+                ],
+                [
+                    4,
+                    8,
+                    4
+                ]
+            ]
+        },
+        {
+            "input": [
+                [
+                    7,
+                    7,
+                    7
+                ],
+                [
+                    9,
+                    5,
+                    5
+                ],
+                [
+                    5,
+                    1,
+                    7
+                ]
+            ],
+            "output": [
+                [
+                    7,
+                    7,
+                    7
+                ],
+                [
+                    9,
+                    5,
+                    5
+                ],
+                [
+                    5,
+                    1,
+                    7
+                ],
+                [
+                    5,
+                    1,
+                    7
+                ],
+                [
+                    9,
+                    5,
+                    5
+                ],
+                [
+                    7,
+                    7,
+                    7
+                ]
+            ]
+        },
+        {
+            "input": [
+                [
+                    2,
+                    6,
+                    9
+                ],
+                [
+                    2,
+                    6,
+                    9
+                ],
+                [
+                    2,
+                    9,
+                    2
+                ]
+            ],
+            "output": [
+                [
+                    2,
+                    6,
+                    9
+                ],
+                [
+                    2,
+                    6,
+                    9
+                ],
+                [
+                    2,
+                    9,
+                    2
+                ],
+                [
+                    2,
+                    9,
+                    2
+                ],
+                [
+                    2,
+                    6,
+                    9
+                ],
+                [
+                    2,
+                    6,
+                    9
+                ]
+            ]
+        }
+    ],
+    "test_grid": [
+        {
+            "input": [
+                [
+                    2,
+                    9,
+                    2
+                ],
+                [
+                    8,
+                    5,
+                    2
+                ],
+                [
+                    2,
+                    2,
+                    8
+                ]
+            ],
+            "output": [
+                [
+                    2,
+                    9,
+                    2
+                ],
+                [
+                    8,
+                    5,
+                    2
+                ],
+                [
+                    2,
+                    2,
+                    8
+                ],
+                [
+                    2,
+                    2,
+                    8
+                ],
+                [
+                    8,
+                    5,
+                    2
+                ],
+                [
+                    2,
+                    9,
+                    2
+                ]
+            ]
+        }
+    ]
+}

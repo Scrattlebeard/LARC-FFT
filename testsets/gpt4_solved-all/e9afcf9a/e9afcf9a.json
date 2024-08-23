@@ -1,0 +1,178 @@
+{
+    "task_name": "e9afcf9a.json",
+    "task_number": 372,
+    "descriptions": [
+        {
+            "description_id": "37c21af3-e512-43db-9264-53829ba71b60",
+            "task_name": "e9afcf9a.json",
+            "description_input": "In the input, you should see... like it",
+            "description_output_grid_size": "The output grid size... good",
+            "description_output_instructions": "To make the output, you have to... nice",
+            "is_verified": true,
+            "confidence": 10,
+            "num_verification_attempts": 1,
+            "builds": [
+                {
+                    "build_id": "mXT8PqP3YwMlkONzgch5",
+                    "description_id": "37c21af3-e512-43db-9264-53829ba71b60",
+                    "is_success": false,
+                    "num_attempts": 3
+                }
+            ]
+        },
+        {
+            "description_id": "79a31e32-c564-4fcb-9477-1071a3361ffc",
+            "task_name": "e9afcf9a.json",
+            "description_input": "In the input, you should see...a pattern with two colors",
+            "description_output_grid_size": "The output grid size...keep the same",
+            "description_output_instructions": "To make the output, you have to...start with the color that is on the top. Fill in that line with that color every other square, begin with first square. Fill in the rest in that line with the second color. For the next line, start with the color that is already there (the second color) and fill in in the same every other square pattern. It should look like a game board. The first color in every line is the color of the input grid",
+            "is_verified": true,
+            "confidence": 9,
+            "num_verification_attempts": 1,
+            "builds": [
+                {
+                    "build_id": "3DdTOIVUmuZg46PzWDxP",
+                    "description_id": "79a31e32-c564-4fcb-9477-1071a3361ffc",
+                    "is_success": true,
+                    "num_attempts": 3
+                },
+                {
+                    "build_id": "F8rtF1GGo5DbDomBTEHh",
+                    "description_id": "79a31e32-c564-4fcb-9477-1071a3361ffc",
+                    "is_success": true,
+                    "num_attempts": 1
+                },
+                {
+                    "build_id": "dJC6tYMpqIBce2siQ40m",
+                    "description_id": "79a31e32-c564-4fcb-9477-1071a3361ffc",
+                    "is_success": false,
+                    "num_attempts": 3
+                },
+                {
+                    "build_id": "noohqtKjUFaNbUH0ToHA",
+                    "description_id": "79a31e32-c564-4fcb-9477-1071a3361ffc",
+                    "is_success": true,
+                    "num_attempts": 1
+                }
+            ]
+        }
+    ],
+    "training_grids": [
+        {
+            "input": [
+                [
+                    3,
+                    3,
+                    3,
+                    3,
+                    3,
+                    3
+                ],
+                [
+                    9,
+                    9,
+                    9,
+                    9,
+                    9,
+                    9
+                ]
+            ],
+            "output": [
+                [
+                    3,
+                    9,
+                    3,
+                    9,
+                    3,
+                    9
+                ],
+                [
+                    9,
+                    3,
+                    9,
+                    3,
+                    9,
+                    3
+                ]
+            ]
+        },
+        {
+            "input": [
+                [
+                    4,
+                    4,
+                    4,
+                    4,
+                    4,
+                    4
+                ],
+                [
+                    8,
+                    8,
+                    8,
+                    8,
+                    8,
+                    8
+                ]
+            ],
+            "output": [
+                [
+                    4,
+                    8,
+                    4,
+                    8,
+                    4,
+                    8
+                ],
+                [
+                    8,
+                    4,
+                    8,
+                    4,
+                    8,
+                    4
+                ]
+            ]
+        }
+    ],
+    "test_grid": [
+        {
+            "input": [
+                [
+                    6,
+                    6,
+                    6,
+                    6,
+                    6,
+                    6
+                ],
+                [
+                    2,
+                    2,
+                    2,
+                    2,
+                    2,
+                    2
+                ]
+            ],
+            "output": [
+                [
+                    6,
+                    2,
+                    6,
+                    2,
+                    6,
+                    2
+                ],
+                [
+                    2,
+                    6,
+                    2,
+                    6,
+                    2,
+                    6
+                ]
+            ]
+        }
+    ]
+}

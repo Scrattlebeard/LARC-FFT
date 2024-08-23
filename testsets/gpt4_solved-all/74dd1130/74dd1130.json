@@ -1,0 +1,265 @@
+{
+    "task_name": "74dd1130.json",
+    "task_number": 178,
+    "descriptions": [
+        {
+            "description_id": "14e302fd-f16d-4a1a-9769-6c7dcab3d919",
+            "task_name": "74dd1130.json",
+            "description_input": "In the input, you should see...2 or three colors with a gray squares",
+            "description_output_grid_size": "The output grid size...remains the same",
+            "description_output_instructions": "To make the output, you have to... mirror the pattern and focus the pattern around to the left",
+            "is_verified": true,
+            "confidence": 7,
+            "num_verification_attempts": 3,
+            "builds": [
+                {
+                    "build_id": "JzPbS1dptv6TBy4rM2Dl",
+                    "description_id": "14e302fd-f16d-4a1a-9769-6c7dcab3d919",
+                    "is_success": false,
+                    "num_attempts": 3
+                }
+            ]
+        },
+        {
+            "description_id": "3da2b0e1-fa4a-4253-8c6e-223ba8aefe45",
+            "task_name": "74dd1130.json",
+            "description_input": "In the input, you should see...2 or 3 colors with a gray squares",
+            "description_output_grid_size": "The output grid size...remains the same",
+            "description_output_instructions": "To make the output, you have to...rotate it 90 degree clockwise and mirror the result",
+            "is_verified": true,
+            "confidence": 6,
+            "num_verification_attempts": 2,
+            "builds": [
+                {
+                    "build_id": "ePFW1VU6tEyEvaOMYXwD",
+                    "description_id": "3da2b0e1-fa4a-4253-8c6e-223ba8aefe45",
+                    "is_success": true,
+                    "num_attempts": 1
+                },
+                {
+                    "build_id": "j1EbmgieO3mRncRiotNy",
+                    "description_id": "3da2b0e1-fa4a-4253-8c6e-223ba8aefe45",
+                    "is_success": true,
+                    "num_attempts": 1
+                }
+            ]
+        },
+        {
+            "description_id": "42a76a2e-5830-463b-86f7-12aac95c19ba",
+            "task_name": "74dd1130.json",
+            "description_input": "In the input, you should see...two or more color squares on a gray background.",
+            "description_output_grid_size": "The output grid size...remains the same",
+            "description_output_instructions": "To make the output, you have to...move the entire grid on the diagonal and mirror it. Imagine the top right and pull it down and to the left.",
+            "is_verified": true,
+            "confidence": 1,
+            "num_verification_attempts": 1,
+            "builds": []
+        },
+        {
+            "description_id": "9ca5e131-6e6d-4025-84dc-f4786efe64ba",
+            "task_name": "74dd1130.json",
+            "description_input": "In the input, you should see...a gray grid with 5 squares the if you number the grid squares from top down left to right starting with number 1 and the the the number 1, 2, and 9 squares should be red 6, and 8 should be light blue the rest of the grid is gray.",
+            "description_output_grid_size": "The output grid size...is the same",
+            "description_output_instructions": "To make the output, you have to...move red square number 2 to number 4 change two to gray",
+            "is_verified": false,
+            "confidence": null,
+            "num_verification_attempts": 3,
+            "builds": []
+        },
+        {
+            "description_id": "a019cb66-41c8-4d41-9f4f-751ec01456f2",
+            "task_name": "74dd1130.json",
+            "description_input": "In the input, you should see...change color",
+            "description_output_grid_size": "The output grid size...change size",
+            "description_output_instructions": "To make the output, you have to...change color",
+            "is_verified": false,
+            "confidence": null,
+            "num_verification_attempts": 3,
+            "builds": []
+        }
+    ],
+    "training_grids": [
+        {
+            "input": [
+                [
+                    2,
+                    2,
+                    1
+                ],
+                [
+                    1,
+                    5,
+                    1
+                ],
+                [
+                    5,
+                    2,
+                    2
+                ]
+            ],
+            "output": [
+                [
+                    2,
+                    1,
+                    5
+                ],
+                [
+                    2,
+                    5,
+                    2
+                ],
+                [
+                    1,
+                    1,
+                    2
+                ]
+            ]
+        },
+        {
+            "input": [
+                [
+                    2,
+                    2,
+                    5
+                ],
+                [
+                    6,
+                    2,
+                    2
+                ],
+                [
+                    5,
+                    5,
+                    5
+                ]
+            ],
+            "output": [
+                [
+                    2,
+                    6,
+                    5
+                ],
+                [
+                    2,
+                    2,
+                    5
+                ],
+                [
+                    5,
+                    2,
+                    5
+                ]
+            ]
+        },
+        {
+            "input": [
+                [
+                    9,
+                    9,
+                    5
+                ],
+                [
+                    5,
+                    5,
+                    8
+                ],
+                [
+                    5,
+                    8,
+                    9
+                ]
+            ],
+            "output": [
+                [
+                    9,
+                    5,
+                    5
+                ],
+                [
+                    9,
+                    5,
+                    8
+                ],
+                [
+                    5,
+                    8,
+                    9
+                ]
+            ]
+        },
+        {
+            "input": [
+                [
+                    2,
+                    6,
+                    6
+                ],
+                [
+                    2,
+                    1,
+                    1
+                ],
+                [
+                    2,
+                    6,
+                    2
+                ]
+            ],
+            "output": [
+                [
+                    2,
+                    2,
+                    2
+                ],
+                [
+                    6,
+                    1,
+                    6
+                ],
+                [
+                    6,
+                    1,
+                    2
+                ]
+            ]
+        }
+    ],
+    "test_grid": [
+        {
+            "input": [
+                [
+                    9,
+                    3,
+                    4
+                ],
+                [
+                    9,
+                    4,
+                    4
+                ],
+                [
+                    9,
+                    3,
+                    4
+                ]
+            ],
+            "output": [
+                [
+                    9,
+                    9,
+                    9
+                ],
+                [
+                    3,
+                    4,
+                    3
+                ],
+                [
+                    4,
+                    4,
+                    4
+                ]
+            ]
+        }
+    ]
+}

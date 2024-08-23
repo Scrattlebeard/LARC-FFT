@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="150" height="150">
+<defs>
+    <!-- Define the overall grid which we represent our shapes in -->
+    <pattern id="grid" width="50" height="50" patternUnits="userSpaceOnUse">
+        <path d="M 50 0 L 0 0 0 50" fill="none" stroke="gray" stroke-width="8"/>
+    </pattern>
+
+    <!-- Define a mapping from int used in the json to colors -->
+    <linearGradient id="0-black">
+        <stop offset="100%" stop-color="#000000"/>
+    </linearGradient>
+    <linearGradient id="1-blue">
+        <stop offset="100%" stop-color="#0074D9"/>
+    </linearGradient>
+    <linearGradient id="2-red">
+        <stop offset="100%" stop-color="#FF4136"/>
+    </linearGradient>
+    <linearGradient id="3-green">
+        <stop offset="100%" stop-color="#2ECC40"/>
+    </linearGradient>
+    <linearGradient id="4-yellow">
+        <stop offset="100%" stop-color="#FFDC00"/>
+    </linearGradient>
+    <linearGradient id="5-grey">
+        <stop offset="100%" stop-color="#AAAAAA"/>
+    </linearGradient>
+    <linearGradient id="6-pink">
+        <stop offset="100%" stop-color="#F012BE"/>
+    </linearGradient>
+    <linearGradient id="7-orange">
+        <stop offset="100%" stop-color="#FF851B"/>
+    </linearGradient>
+    <linearGradient id="8-teal">
+        <stop offset="100%" stop-color="#7FDBFF"/>
+    </linearGradient>
+    <linearGradient id="9-brown">
+        <stop offset="100%" stop-color="#870C25"/>
+    </linearGradient>
+</defs>
+
+<!-- Now we add in each cell from the json -->
+<rect id="coord(0,0)" x="0" y="0" width="50" height="50" fill="url(#0-black)"/> <rect id="coord(0,1)" x="50" y="0" width="50" height="50" fill="url(#0-black)"/> <rect id="coord(0,2)" x="100" y="0" width="50" height="50" fill="url(#0-black)"/> 
+<rect id="coord(1,0)" x="0" y="50" width="50" height="50" fill="url(#0-black)"/> <rect id="coord(1,1)" x="50" y="50" width="50" height="50" fill="url(#2-red)"/> <rect id="coord(1,2)" x="100" y="50" width="50" height="50" fill="url(#2-red)"/> 
+<rect id="coord(2,0)" x="0" y="100" width="50" height="50" fill="url(#0-black)"/> <rect id="coord(2,1)" x="50" y="100" width="50" height="50" fill="url(#0-black)"/> <rect id="coord(2,2)" x="100" y="100" width="50" height="50" fill="url(#2-red)"/> 
+
+<!-- Now we add in the grid pattern -->
+<rect width="100%" height="100%" fill="url(#grid)" />
+</svg>

@@ -1,0 +1,244 @@
+{
+    "task_name": "49d1d64f.json",
+    "task_number": 113,
+    "descriptions": [
+        {
+            "description_id": "7089490b-b2c6-43dc-9451-c6888113b661",
+            "task_name": "49d1d64f.json",
+            "description_input": "In the input, you should see...the grid size. The input grid size is the center size for output grid.",
+            "description_output_grid_size": "The output grid size...should be input size with one more grid is 3x3 change into 5x5 , 2x2 change into 4x4 like 2x3 change into 4x5",
+            "description_output_instructions": "To make the output, you have to...make input pattern as center for output and colors should be same. The adjacent colors are also same .  all four corner colors should be black",
+            "is_verified": true,
+            "confidence": 5,
+            "num_verification_attempts": 2,
+            "builds": [
+                {
+                    "build_id": "DQV4KeClnAlKjKonEkET",
+                    "description_id": "7089490b-b2c6-43dc-9451-c6888113b661",
+                    "is_success": true,
+                    "num_attempts": 1
+                },
+                {
+                    "build_id": "W2Q99RjQUTzMEdSXcPjC",
+                    "description_id": "7089490b-b2c6-43dc-9451-c6888113b661",
+                    "is_success": true,
+                    "num_attempts": 3
+                },
+                {
+                    "build_id": "iH4aOeTvzOEflTsgdRCO",
+                    "description_id": "7089490b-b2c6-43dc-9451-c6888113b661",
+                    "is_success": true,
+                    "num_attempts": 1
+                }
+            ]
+        },
+        {
+            "description_id": "c97dda24-eeb7-47ed-84c9-ae21a3ac660f",
+            "task_name": "49d1d64f.json",
+            "description_input": "In the input, you should see...colored blocks",
+            "description_output_grid_size": "The output grid size...add two blocks to height and width.",
+            "description_output_instructions": "To make the output, you have to...use the color from the input corner to make 4x4 blocks of the same colors in the corresponding corner of the output. Use colors in the middle outside blocks of the input grid to create 1x2 or 2x1 blocks in the corresponding middle outside space in the output. Black out each corner block of the output grid. If the output is not even in its number of blocks in height and width, black out the center of the grid.",
+            "is_verified": true,
+            "confidence": 9,
+            "num_verification_attempts": 1,
+            "builds": [
+                {
+                    "build_id": "LUgWmQFdAQLaftIcbqWK",
+                    "description_id": "c97dda24-eeb7-47ed-84c9-ae21a3ac660f",
+                    "is_success": false,
+                    "num_attempts": 3
+                }
+            ]
+        }
+    ],
+    "training_grids": [
+        {
+            "input": [
+                [
+                    1,
+                    2
+                ],
+                [
+                    3,
+                    8
+                ]
+            ],
+            "output": [
+                [
+                    0,
+                    1,
+                    2,
+                    0
+                ],
+                [
+                    1,
+                    1,
+                    2,
+                    2
+                ],
+                [
+                    3,
+                    3,
+                    8,
+                    8
+                ],
+                [
+                    0,
+                    3,
+                    8,
+                    0
+                ]
+            ]
+        },
+        {
+            "input": [
+                [
+                    1,
+                    8,
+                    4
+                ],
+                [
+                    8,
+                    3,
+                    8
+                ]
+            ],
+            "output": [
+                [
+                    0,
+                    1,
+                    8,
+                    4,
+                    0
+                ],
+                [
+                    1,
+                    1,
+                    8,
+                    4,
+                    4
+                ],
+                [
+                    8,
+                    8,
+                    3,
+                    8,
+                    8
+                ],
+                [
+                    0,
+                    8,
+                    3,
+                    8,
+                    0
+                ]
+            ]
+        },
+        {
+            "input": [
+                [
+                    2,
+                    1,
+                    4
+                ],
+                [
+                    8,
+                    0,
+                    2
+                ],
+                [
+                    3,
+                    2,
+                    8
+                ]
+            ],
+            "output": [
+                [
+                    0,
+                    2,
+                    1,
+                    4,
+                    0
+                ],
+                [
+                    2,
+                    2,
+                    1,
+                    4,
+                    4
+                ],
+                [
+                    8,
+                    8,
+                    0,
+                    2,
+                    2
+                ],
+                [
+                    3,
+                    3,
+                    2,
+                    8,
+                    8
+                ],
+                [
+                    0,
+                    3,
+                    2,
+                    8,
+                    0
+                ]
+            ]
+        }
+    ],
+    "test_grid": [
+        {
+            "input": [
+                [
+                    2,
+                    8
+                ],
+                [
+                    1,
+                    4
+                ],
+                [
+                    3,
+                    4
+                ]
+            ],
+            "output": [
+                [
+                    0,
+                    2,
+                    8,
+                    0
+                ],
+                [
+                    2,
+                    2,
+                    8,
+                    8
+                ],
+                [
+                    1,
+                    1,
+                    4,
+                    4
+                ],
+                [
+                    3,
+                    3,
+                    4,
+                    4
+                ],
+                [
+                    0,
+                    3,
+                    4,
+                    0
+                ]
+            ]
+        }
+    ]
+}

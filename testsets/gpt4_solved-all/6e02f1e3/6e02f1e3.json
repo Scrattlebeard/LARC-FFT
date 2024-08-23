@@ -1,0 +1,298 @@
+{
+    "task_name": "6e02f1e3.json",
+    "task_number": 166,
+    "descriptions": [
+        {
+            "description_id": "0e7d49c3-78c8-4489-92c5-e8170a8ccaa3",
+            "task_name": "6e02f1e3.json",
+            "description_input": "In the input, you should see...a 3x3 grid that may have between 1 and 3 colors.",
+            "description_output_grid_size": "The output grid size...it stays the same.",
+            "description_output_instructions": "To make the output, you have to...place 3 grey boxes in various spots based on how many colors there are in the input grid. If there is one color, put 3 grey boxes on the top of the grid. If there are two colors, place a diagonal line of grey boxes form top left to bottom right. If there are 3 colors, place a diagonal line of grey boxes going from bottom left to top right.",
+            "is_verified": true,
+            "confidence": 10,
+            "num_verification_attempts": 1,
+            "builds": [
+                {
+                    "build_id": "Q4ftTjP9wG5T8ULYNQR3",
+                    "description_id": "0e7d49c3-78c8-4489-92c5-e8170a8ccaa3",
+                    "is_success": true,
+                    "num_attempts": 1
+                }
+            ]
+        },
+        {
+            "description_id": "528f8b7f-67b8-4c37-8ced-4aa4497b108f",
+            "task_name": "6e02f1e3.json",
+            "description_input": "In the input, you should see... a 3x3 grid of 1-3 colors.",
+            "description_output_grid_size": "The output grid size...is the same as the input grid",
+            "description_output_instructions": "To make the output, you have to... place 3 gray pixels based on how many colors are in the grid. If it is one color place 3 gray pixels along the top of the grid. If there are two colors make a diagonal line from the top left to the bottom right. If there are three colors make a diagonal line from the top right to the bottom left.",
+            "is_verified": true,
+            "confidence": 10,
+            "num_verification_attempts": 1,
+            "builds": [
+                {
+                    "build_id": "x10dUzwT4u3Ni5Sq1i3Q",
+                    "description_id": "528f8b7f-67b8-4c37-8ced-4aa4497b108f",
+                    "is_success": true,
+                    "num_attempts": 1
+                }
+            ]
+        },
+        {
+            "description_id": "db366c7e-891c-4140-9658-44cb5ebe13a9",
+            "task_name": "6e02f1e3.json",
+            "description_input": "In the input, you should see...an image with 1 to 3 colors",
+            "description_output_grid_size": "The output grid size...stays the same",
+            "description_output_instructions": "To make the output, you have to...make a black and gray pattern depending on the number of colors in the input.  Start with an all black grid.  If there is one color, make the top 3 squares gray.  If there are two colors, make a diagonal line from top left to bottom right gray, again 3 pixels.  If there are three colors, make a diagonal line from top right to bottom left gray, again 3 pixels.",
+            "is_verified": true,
+            "confidence": 9,
+            "num_verification_attempts": 1,
+            "builds": [
+                {
+                    "build_id": "E9xcFiDeSyb8zuL0haKD",
+                    "description_id": "db366c7e-891c-4140-9658-44cb5ebe13a9",
+                    "is_success": true,
+                    "num_attempts": 1
+                }
+            ]
+        },
+        {
+            "description_id": "ed6d9458-97aa-4290-87b3-ada2dd710f16",
+            "task_name": "6e02f1e3.json",
+            "description_input": "In the input, you should see...A 3 x 3 grid of color squares.",
+            "description_output_grid_size": "The output grid size...Copy the input grid",
+            "description_output_instructions": "To make the output, you have to...When three colors are present make a grey diagonal line from top right to bottom left.  If there are two colors make a grey diagonal line from top left to bottom right.  If there is one color make a grey line across the top three blocks.",
+            "is_verified": true,
+            "confidence": 10,
+            "num_verification_attempts": 1,
+            "builds": [
+                {
+                    "build_id": "f6uujUB7ptzyjHE7dqNq",
+                    "description_id": "ed6d9458-97aa-4290-87b3-ada2dd710f16",
+                    "is_success": true,
+                    "num_attempts": 3
+                }
+            ]
+        }
+    ],
+    "training_grids": [
+        {
+            "input": [
+                [
+                    2,
+                    2,
+                    2
+                ],
+                [
+                    3,
+                    2,
+                    3
+                ],
+                [
+                    3,
+                    3,
+                    3
+                ]
+            ],
+            "output": [
+                [
+                    5,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    5,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    5
+                ]
+            ]
+        },
+        {
+            "input": [
+                [
+                    3,
+                    3,
+                    3
+                ],
+                [
+                    4,
+                    2,
+                    2
+                ],
+                [
+                    4,
+                    4,
+                    2
+                ]
+            ],
+            "output": [
+                [
+                    0,
+                    0,
+                    5
+                ],
+                [
+                    0,
+                    5,
+                    0
+                ],
+                [
+                    5,
+                    0,
+                    0
+                ]
+            ]
+        },
+        {
+            "input": [
+                [
+                    4,
+                    4,
+                    4
+                ],
+                [
+                    4,
+                    4,
+                    4
+                ],
+                [
+                    4,
+                    4,
+                    4
+                ]
+            ],
+            "output": [
+                [
+                    5,
+                    5,
+                    5
+                ],
+                [
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    0
+                ]
+            ]
+        },
+        {
+            "input": [
+                [
+                    3,
+                    3,
+                    3
+                ],
+                [
+                    3,
+                    3,
+                    3
+                ],
+                [
+                    3,
+                    3,
+                    3
+                ]
+            ],
+            "output": [
+                [
+                    5,
+                    5,
+                    5
+                ],
+                [
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    0
+                ]
+            ]
+        },
+        {
+            "input": [
+                [
+                    4,
+                    4,
+                    4
+                ],
+                [
+                    4,
+                    4,
+                    4
+                ],
+                [
+                    3,
+                    3,
+                    3
+                ]
+            ],
+            "output": [
+                [
+                    5,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    5,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    5
+                ]
+            ]
+        }
+    ],
+    "test_grid": [
+        {
+            "input": [
+                [
+                    4,
+                    4,
+                    4
+                ],
+                [
+                    2,
+                    3,
+                    2
+                ],
+                [
+                    3,
+                    2,
+                    3
+                ]
+            ],
+            "output": [
+                [
+                    0,
+                    0,
+                    5
+                ],
+                [
+                    0,
+                    5,
+                    0
+                ],
+                [
+                    5,
+                    0,
+                    0
+                ]
+            ]
+        }
+    ]
+}

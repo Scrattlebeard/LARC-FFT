@@ -1,0 +1,299 @@
+{
+    "task_name": "746b3537.json",
+    "task_number": 177,
+    "descriptions": [
+        {
+            "description_id": "5a96c502-e5bd-47e7-b2a3-4a40a4ff8b0b",
+            "task_name": "746b3537.json",
+            "description_input": "In the input, you should see...good sections",
+            "description_output_grid_size": "The output grid size...grid size change to correctly",
+            "description_output_instructions": "To make the output, you have to...output pattern set",
+            "is_verified": true,
+            "confidence": 10,
+            "num_verification_attempts": 1,
+            "builds": [
+                {
+                    "build_id": "Jg1NZUMJMflpg5yFe7jf",
+                    "description_id": "5a96c502-e5bd-47e7-b2a3-4a40a4ff8b0b",
+                    "is_success": true,
+                    "num_attempts": 1
+                }
+            ]
+        },
+        {
+            "description_id": "754a71dd-c64b-47f4-9637-3f901bf0e509",
+            "task_name": "746b3537.json",
+            "description_input": "In the input, you should see...ayout excels at dividing a page into major regions or defining the relationship in terms of size, position, and layer, between parts of a control built from HTML primitives. Like tables, grid layout enables an author to align elements into columns and rows.see...",
+            "description_output_grid_size": "The output grid size...yes the grid size 4x4 of input and should output of 1x1in size",
+            "description_output_instructions": "To make the output, you have to... output grid create to draw and flood fill and color and copy -past",
+            "is_verified": false,
+            "confidence": null,
+            "num_verification_attempts": 3,
+            "builds": []
+        },
+        {
+            "description_id": "8f87a851-5d52-4143-ab72-f1e914610c53",
+            "task_name": "746b3537.json",
+            "description_input": "In the input, you should see... three columns of two colored squares",
+            "description_output_grid_size": "The output grid size... remains the same",
+            "description_output_instructions": "To make the output, you have to... gray out border columns",
+            "is_verified": false,
+            "confidence": null,
+            "num_verification_attempts": 3,
+            "builds": []
+        },
+        {
+            "description_id": "bed7c512-15a5-4458-b781-f20a6411731c",
+            "task_name": "746b3537.json",
+            "description_input": "In the input, you should see...sections with a color pattern",
+            "description_output_grid_size": "The output grid size...enough space for each color in the design",
+            "description_output_instructions": "To make the output, you have to....keep the pattern but only keep one set",
+            "is_verified": true,
+            "confidence": 8,
+            "num_verification_attempts": 2,
+            "builds": [
+                {
+                    "build_id": "k6KDwjVkCjYZEkxucDRn",
+                    "description_id": "bed7c512-15a5-4458-b781-f20a6411731c",
+                    "is_success": false,
+                    "num_attempts": 3
+                }
+            ]
+        }
+    ],
+    "training_grids": [
+        {
+            "input": [
+                [
+                    1,
+                    1,
+                    1
+                ],
+                [
+                    2,
+                    2,
+                    2
+                ],
+                [
+                    1,
+                    1,
+                    1
+                ]
+            ],
+            "output": [
+                [
+                    1
+                ],
+                [
+                    2
+                ],
+                [
+                    1
+                ]
+            ]
+        },
+        {
+            "input": [
+                [
+                    3,
+                    4,
+                    6
+                ],
+                [
+                    3,
+                    4,
+                    6
+                ],
+                [
+                    3,
+                    4,
+                    6
+                ]
+            ],
+            "output": [
+                [
+                    3,
+                    4,
+                    6
+                ]
+            ]
+        },
+        {
+            "input": [
+                [
+                    2,
+                    3,
+                    3,
+                    8,
+                    1
+                ],
+                [
+                    2,
+                    3,
+                    3,
+                    8,
+                    1
+                ],
+                [
+                    2,
+                    3,
+                    3,
+                    8,
+                    1
+                ]
+            ],
+            "output": [
+                [
+                    2,
+                    3,
+                    8,
+                    1
+                ]
+            ]
+        },
+        {
+            "input": [
+                [
+                    2,
+                    2
+                ],
+                [
+                    6,
+                    6
+                ],
+                [
+                    8,
+                    8
+                ],
+                [
+                    8,
+                    8
+                ]
+            ],
+            "output": [
+                [
+                    2
+                ],
+                [
+                    6
+                ],
+                [
+                    8
+                ]
+            ]
+        },
+        {
+            "input": [
+                [
+                    4,
+                    4,
+                    4,
+                    4
+                ],
+                [
+                    4,
+                    4,
+                    4,
+                    4
+                ],
+                [
+                    2,
+                    2,
+                    2,
+                    2
+                ],
+                [
+                    2,
+                    2,
+                    2,
+                    2
+                ],
+                [
+                    8,
+                    8,
+                    8,
+                    8
+                ],
+                [
+                    3,
+                    3,
+                    3,
+                    3
+                ]
+            ],
+            "output": [
+                [
+                    4
+                ],
+                [
+                    2
+                ],
+                [
+                    8
+                ],
+                [
+                    3
+                ]
+            ]
+        }
+    ],
+    "test_grid": [
+        {
+            "input": [
+                [
+                    1,
+                    1,
+                    2,
+                    3,
+                    3,
+                    3,
+                    8,
+                    8,
+                    4
+                ],
+                [
+                    1,
+                    1,
+                    2,
+                    3,
+                    3,
+                    3,
+                    8,
+                    8,
+                    4
+                ],
+                [
+                    1,
+                    1,
+                    2,
+                    3,
+                    3,
+                    3,
+                    8,
+                    8,
+                    4
+                ],
+                [
+                    1,
+                    1,
+                    2,
+                    3,
+                    3,
+                    3,
+                    8,
+                    8,
+                    4
+                ]
+            ],
+            "output": [
+                [
+                    1,
+                    2,
+                    3,
+                    8,
+                    4
+                ]
+            ]
+        }
+    ]
+}

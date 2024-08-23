@@ -1,0 +1,232 @@
+{
+    "task_name": "25d8a9c8.json",
+    "task_number": 51,
+    "descriptions": [
+        {
+            "description_id": "d4aa1c11-ffbe-4f26-a9be-854f3871606a",
+            "task_name": "25d8a9c8.json",
+            "description_input": "In the input, you should see...colored pattern in the grids.",
+            "description_output_grid_size": "The output grid size...same as the input grid size.",
+            "description_output_instructions": "To make the output, you have to...fill the row with grey if the row has the same colors in the input. color the row with black if the row contain different colors.",
+            "is_verified": true,
+            "confidence": 9,
+            "num_verification_attempts": 1,
+            "builds": [
+                {
+                    "build_id": "42LW5rrvrxBCpfTzOtcb",
+                    "description_id": "d4aa1c11-ffbe-4f26-a9be-854f3871606a",
+                    "is_success": true,
+                    "num_attempts": 1
+                },
+                {
+                    "build_id": "JMLz7Yc7ShcfRh8zEa4R",
+                    "description_id": "d4aa1c11-ffbe-4f26-a9be-854f3871606a",
+                    "is_success": true,
+                    "num_attempts": 1
+                }
+            ]
+        },
+        {
+            "description_id": "ed5ce9ff-b1f1-4719-a97e-db1df6551624",
+            "task_name": "25d8a9c8.json",
+            "description_input": "In the input, you should see...grid filled with different colors",
+            "description_output_grid_size": "The output grid size...should be the same as the input",
+            "description_output_instructions": "To make the output, you have to...change the color in a given row to gray if the color is the same in that row in the input; otherwise, change the color to black.",
+            "is_verified": true,
+            "confidence": 8,
+            "num_verification_attempts": 2,
+            "builds": [
+                {
+                    "build_id": "n71HVdj76sXJF7kWUA3E",
+                    "description_id": "ed5ce9ff-b1f1-4719-a97e-db1df6551624",
+                    "is_success": false,
+                    "num_attempts": 3
+                }
+            ]
+        }
+    ],
+    "training_grids": [
+        {
+            "input": [
+                [
+                    4,
+                    4,
+                    4
+                ],
+                [
+                    2,
+                    3,
+                    2
+                ],
+                [
+                    2,
+                    3,
+                    3
+                ]
+            ],
+            "output": [
+                [
+                    5,
+                    5,
+                    5
+                ],
+                [
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    0
+                ]
+            ]
+        },
+        {
+            "input": [
+                [
+                    7,
+                    3,
+                    3
+                ],
+                [
+                    6,
+                    6,
+                    6
+                ],
+                [
+                    3,
+                    7,
+                    7
+                ]
+            ],
+            "output": [
+                [
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    5,
+                    5,
+                    5
+                ],
+                [
+                    0,
+                    0,
+                    0
+                ]
+            ]
+        },
+        {
+            "input": [
+                [
+                    2,
+                    9,
+                    2
+                ],
+                [
+                    4,
+                    4,
+                    4
+                ],
+                [
+                    9,
+                    9,
+                    9
+                ]
+            ],
+            "output": [
+                [
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    5,
+                    5,
+                    5
+                ],
+                [
+                    5,
+                    5,
+                    5
+                ]
+            ]
+        },
+        {
+            "input": [
+                [
+                    2,
+                    2,
+                    4
+                ],
+                [
+                    2,
+                    2,
+                    4
+                ],
+                [
+                    1,
+                    1,
+                    1
+                ]
+            ],
+            "output": [
+                [
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    5,
+                    5,
+                    5
+                ]
+            ]
+        }
+    ],
+    "test_grid": [
+        {
+            "input": [
+                [
+                    4,
+                    4,
+                    4
+                ],
+                [
+                    3,
+                    2,
+                    3
+                ],
+                [
+                    8,
+                    8,
+                    8
+                ]
+            ],
+            "output": [
+                [
+                    5,
+                    5,
+                    5
+                ],
+                [
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    5,
+                    5,
+                    5
+                ]
+            ]
+        }
+    ]
+}

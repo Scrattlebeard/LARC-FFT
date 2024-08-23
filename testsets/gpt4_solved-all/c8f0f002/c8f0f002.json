@@ -1,0 +1,250 @@
+{
+    "task_name": "c8f0f002.json",
+    "task_number": 308,
+    "descriptions": [
+        {
+            "description_id": "a207bc8f-a143-43e9-bcdb-b4a88cc38b84",
+            "task_name": "c8f0f002.json",
+            "description_input": "In the input, you should see...blue and yellow colors",
+            "description_output_grid_size": "The output grid size...is the same as the input grid size",
+            "description_output_instructions": "To make the output, you have to...change the yellow grids into grey one",
+            "is_verified": true,
+            "confidence": 10,
+            "num_verification_attempts": 1,
+            "builds": [
+                {
+                    "build_id": "XTaaeWdU9So5TICDs4by",
+                    "description_id": "a207bc8f-a143-43e9-bcdb-b4a88cc38b84",
+                    "is_success": true,
+                    "num_attempts": 1
+                },
+                {
+                    "build_id": "aZxRfxYyPbcD3Gv1veD8",
+                    "description_id": "a207bc8f-a143-43e9-bcdb-b4a88cc38b84",
+                    "is_success": true,
+                    "num_attempts": 1
+                },
+                {
+                    "build_id": "v3PzTEgpjRof9fvsyM3K",
+                    "description_id": "a207bc8f-a143-43e9-bcdb-b4a88cc38b84",
+                    "is_success": true,
+                    "num_attempts": 2
+                }
+            ]
+        },
+        {
+            "description_id": "c195de09-4b05-4f51-b002-9a7d86072485",
+            "task_name": "c8f0f002.json",
+            "description_input": "In the input, you should see...blue grid with yellow grid",
+            "description_output_grid_size": "The output grid size...same as  input",
+            "description_output_instructions": "To make the output, you have to...replace yellow grid with grey",
+            "is_verified": true,
+            "confidence": 10,
+            "num_verification_attempts": 1,
+            "builds": [
+                {
+                    "build_id": "RJ2wftdfNPtHe3JoUOlt",
+                    "description_id": "c195de09-4b05-4f51-b002-9a7d86072485",
+                    "is_success": true,
+                    "num_attempts": 1
+                }
+            ]
+        }
+    ],
+    "training_grids": [
+        {
+            "input": [
+                [
+                    1,
+                    8,
+                    8,
+                    7,
+                    7,
+                    8
+                ],
+                [
+                    1,
+                    1,
+                    7,
+                    7,
+                    1,
+                    8
+                ],
+                [
+                    7,
+                    1,
+                    1,
+                    7,
+                    7,
+                    8
+                ]
+            ],
+            "output": [
+                [
+                    1,
+                    8,
+                    8,
+                    5,
+                    5,
+                    8
+                ],
+                [
+                    1,
+                    1,
+                    5,
+                    5,
+                    1,
+                    8
+                ],
+                [
+                    5,
+                    1,
+                    1,
+                    5,
+                    5,
+                    8
+                ]
+            ]
+        },
+        {
+            "input": [
+                [
+                    7,
+                    7,
+                    7,
+                    1
+                ],
+                [
+                    1,
+                    8,
+                    1,
+                    7
+                ],
+                [
+                    7,
+                    1,
+                    1,
+                    7
+                ]
+            ],
+            "output": [
+                [
+                    5,
+                    5,
+                    5,
+                    1
+                ],
+                [
+                    1,
+                    8,
+                    1,
+                    5
+                ],
+                [
+                    5,
+                    1,
+                    1,
+                    5
+                ]
+            ]
+        },
+        {
+            "input": [
+                [
+                    1,
+                    8,
+                    1,
+                    7,
+                    1
+                ],
+                [
+                    7,
+                    8,
+                    8,
+                    1,
+                    1
+                ],
+                [
+                    7,
+                    1,
+                    8,
+                    8,
+                    7
+                ]
+            ],
+            "output": [
+                [
+                    1,
+                    8,
+                    1,
+                    5,
+                    1
+                ],
+                [
+                    5,
+                    8,
+                    8,
+                    1,
+                    1
+                ],
+                [
+                    5,
+                    1,
+                    8,
+                    8,
+                    5
+                ]
+            ]
+        }
+    ],
+    "test_grid": [
+        {
+            "input": [
+                [
+                    1,
+                    7,
+                    7,
+                    1,
+                    7
+                ],
+                [
+                    8,
+                    1,
+                    7,
+                    7,
+                    7
+                ],
+                [
+                    8,
+                    7,
+                    1,
+                    7,
+                    8
+                ]
+            ],
+            "output": [
+                [
+                    1,
+                    5,
+                    5,
+                    1,
+                    5
+                ],
+                [
+                    8,
+                    1,
+                    5,
+                    5,
+                    5
+                ],
+                [
+                    8,
+                    5,
+                    1,
+                    5,
+                    8
+                ]
+            ]
+        }
+    ]
+}

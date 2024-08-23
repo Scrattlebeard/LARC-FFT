@@ -1,0 +1,293 @@
+{
+    "task_name": "a85d4709.json",
+    "task_number": 261,
+    "descriptions": [
+        {
+            "description_id": "03c65894-76c6-489d-ba7a-2d334ff97804",
+            "task_name": "a85d4709.json",
+            "description_input": "In the input, you should see...two black blocks on each row from top to bottom",
+            "description_output_grid_size": "The output grid size...does not change",
+            "description_output_instructions": "To make the output, you have to...make the row green if two blocks appear together on the left, yellow if two blocks are separated by a gray block in the middle, and red if two blocks appear together on the right on each row",
+            "is_verified": true,
+            "confidence": 8,
+            "num_verification_attempts": 1,
+            "builds": [
+                {
+                    "build_id": "DOdduoE2IgDayulXZ0oj",
+                    "description_id": "03c65894-76c6-489d-ba7a-2d334ff97804",
+                    "is_success": false,
+                    "num_attempts": 3
+                },
+                {
+                    "build_id": "ShpQGYvWSWMq1zfs0qeJ",
+                    "description_id": "03c65894-76c6-489d-ba7a-2d334ff97804",
+                    "is_success": true,
+                    "num_attempts": 1
+                },
+                {
+                    "build_id": "TqUpw9o72Fch1VvfInuT",
+                    "description_id": "03c65894-76c6-489d-ba7a-2d334ff97804",
+                    "is_success": false,
+                    "num_attempts": 3
+                }
+            ]
+        },
+        {
+            "description_id": "0b5964b7-f6fe-4574-b6c5-723030909a45",
+            "task_name": "a85d4709.json",
+            "description_input": "In the input, you should see...some grey pixels either in the first column, second or third column.",
+            "description_output_grid_size": "The output grid size...does not change.  copy and paste the grid",
+            "description_output_instructions": "To make the output, you have to...check the position of the grey pixels. Where the grey pixel is in the first column, the corresponding pixels in that raw in the output should have color red. If the pixel is in the middle column, the corresponding pixels in the output should be yellow. Where the grey pixel is in the the last column , the corresponding pixel in that raw in the output should be green.",
+            "is_verified": true,
+            "confidence": 10,
+            "num_verification_attempts": 1,
+            "builds": [
+                {
+                    "build_id": "K6boHUkOPkB31nnOT2gz",
+                    "description_id": "0b5964b7-f6fe-4574-b6c5-723030909a45",
+                    "is_success": false,
+                    "num_attempts": 3
+                }
+            ]
+        },
+        {
+            "description_id": "2d392c24-7176-47bd-aec7-515d9ee96e8c",
+            "task_name": "a85d4709.json",
+            "description_input": "In the input, you should see...a 3x3 grid",
+            "description_output_grid_size": "The output grid size...stays the same",
+            "description_output_instructions": "To make the output, you have to...have the top and bottom row red and middle row yellow",
+            "is_verified": false,
+            "confidence": null,
+            "num_verification_attempts": 3,
+            "builds": []
+        },
+        {
+            "description_id": "3ce9545f-21f9-46c6-b53a-d203e20e46b8",
+            "task_name": "a85d4709.json",
+            "description_input": "In the input, you should see...A 3x3 grid of grey or black squares.",
+            "description_output_grid_size": "The output grid size...is the same as the input.",
+            "description_output_instructions": "To make the output, you have to...I the input center box is grey make a horizontal bar in the middle output grid yellow, if it is black the middle bar is green. For the top horizontal bar, if the input upper left box is grey and upper right box is black make the upper bar red, if the upper left is black and upper right is grey, make the upper output bar green.If the input upper right and upper left square are both black make the top horizontal bar yellow.The bottom horizontal bar in the output follow the same rule as the top bar.",
+            "is_verified": false,
+            "confidence": null,
+            "num_verification_attempts": 3,
+            "builds": []
+        },
+        {
+            "description_id": "86e0e59f-51f8-4e5f-9200-9324edaba1b9",
+            "task_name": "a85d4709.json",
+            "description_input": "In the input, you should see...colored squares on a black background that must be changed to a solid color or different colors on the other rows",
+            "description_output_grid_size": "The output grid size....3x3 grid",
+            "description_output_instructions": "To make the output, you have to...change the rows from black to a different color or you can put a different color on each row, or every other row",
+            "is_verified": false,
+            "confidence": null,
+            "num_verification_attempts": 3,
+            "builds": []
+        },
+        {
+            "description_id": "8b2f2660-04bf-4a74-a9a5-7a24b6e907d6",
+            "task_name": "a85d4709.json",
+            "description_input": "In the input, you should see...the first two column are black and the last gray",
+            "description_output_grid_size": "The output grid size...stays the same",
+            "description_output_instructions": "To make the output, you have to...color the entire grid green",
+            "is_verified": false,
+            "confidence": null,
+            "num_verification_attempts": 3,
+            "builds": []
+        },
+        {
+            "description_id": "e027fb83-3d95-4961-818f-ed4c53328abe",
+            "task_name": "a85d4709.json",
+            "description_input": "In the input, you should see...a 3x3 grid",
+            "description_output_grid_size": "The output grid size...3x3 grid",
+            "description_output_instructions": "To make the output, you have to...make each horizontal line a single color",
+            "is_verified": false,
+            "confidence": null,
+            "num_verification_attempts": 3,
+            "builds": []
+        }
+    ],
+    "training_grids": [
+        {
+            "input": [
+                [
+                    0,
+                    0,
+                    5
+                ],
+                [
+                    0,
+                    5,
+                    0
+                ],
+                [
+                    5,
+                    0,
+                    0
+                ]
+            ],
+            "output": [
+                [
+                    3,
+                    3,
+                    3
+                ],
+                [
+                    4,
+                    4,
+                    4
+                ],
+                [
+                    2,
+                    2,
+                    2
+                ]
+            ]
+        },
+        {
+            "input": [
+                [
+                    0,
+                    0,
+                    5
+                ],
+                [
+                    0,
+                    0,
+                    5
+                ],
+                [
+                    0,
+                    0,
+                    5
+                ]
+            ],
+            "output": [
+                [
+                    3,
+                    3,
+                    3
+                ],
+                [
+                    3,
+                    3,
+                    3
+                ],
+                [
+                    3,
+                    3,
+                    3
+                ]
+            ]
+        },
+        {
+            "input": [
+                [
+                    5,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    5,
+                    0
+                ],
+                [
+                    5,
+                    0,
+                    0
+                ]
+            ],
+            "output": [
+                [
+                    2,
+                    2,
+                    2
+                ],
+                [
+                    4,
+                    4,
+                    4
+                ],
+                [
+                    2,
+                    2,
+                    2
+                ]
+            ]
+        },
+        {
+            "input": [
+                [
+                    0,
+                    5,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    5
+                ],
+                [
+                    0,
+                    5,
+                    0
+                ]
+            ],
+            "output": [
+                [
+                    4,
+                    4,
+                    4
+                ],
+                [
+                    3,
+                    3,
+                    3
+                ],
+                [
+                    4,
+                    4,
+                    4
+                ]
+            ]
+        }
+    ],
+    "test_grid": [
+        {
+            "input": [
+                [
+                    0,
+                    0,
+                    5
+                ],
+                [
+                    5,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    5,
+                    0
+                ]
+            ],
+            "output": [
+                [
+                    3,
+                    3,
+                    3
+                ],
+                [
+                    2,
+                    2,
+                    2
+                ],
+                [
+                    4,
+                    4,
+                    4
+                ]
+            ]
+        }
+    ]
+}

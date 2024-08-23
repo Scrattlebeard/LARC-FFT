@@ -1,0 +1,178 @@
+{
+    "task_name": "6150a2bd.json",
+    "task_number": 139,
+    "descriptions": [
+        {
+            "description_id": "024f6d8a-79d9-47da-9a0c-11581429629e",
+            "task_name": "6150a2bd.json",
+            "description_input": "In the input, you should see... a black grid with a colored shape",
+            "description_output_grid_size": "The output grid size... is the same as the input grid",
+            "description_output_instructions": "To make the output, you have to... rotate the whole grid two times. Imagine that the entire grid has been flipped vertically and horizontally.",
+            "is_verified": true,
+            "confidence": 8,
+            "num_verification_attempts": 1,
+            "builds": [
+                {
+                    "build_id": "bNziMlUzwRaQbk5L2fIU",
+                    "description_id": "024f6d8a-79d9-47da-9a0c-11581429629e",
+                    "is_success": true,
+                    "num_attempts": 2
+                }
+            ]
+        },
+        {
+            "description_id": "16a83788-e69a-40c6-9832-757ae2fd48bf",
+            "task_name": "6150a2bd.json",
+            "description_input": "In the input, you should see...a small black grid with a multicolored shape in it.",
+            "description_output_grid_size": "The output grid size....is the same as the input.",
+            "description_output_instructions": "To make the output, you have to...imagine that the entire grid has been flipped both horizontally and vertically. Once you picture it, you can create the output grid.",
+            "is_verified": true,
+            "confidence": 10,
+            "num_verification_attempts": 1,
+            "builds": [
+                {
+                    "build_id": "Dm8b4Kk6pGxuJoWIZoE8",
+                    "description_id": "16a83788-e69a-40c6-9832-757ae2fd48bf",
+                    "is_success": true,
+                    "num_attempts": 1
+                },
+                {
+                    "build_id": "YhCWCf13j5RJUmP7ECd5",
+                    "description_id": "16a83788-e69a-40c6-9832-757ae2fd48bf",
+                    "is_success": false,
+                    "num_attempts": 3
+                }
+            ]
+        },
+        {
+            "description_id": "632738ab-6da6-4c07-9611-5f827ca4269f",
+            "task_name": "6150a2bd.json",
+            "description_input": "In the input, you should see...a small black grid with a multicolored shape in it.",
+            "description_output_grid_size": "The output grid size...is the same as the input.",
+            "description_output_instructions": "To make the output, you have to...imagine that the entire grid has been flipped both horizontally and vertically. Once you picture that you can create the output grid.",
+            "is_verified": true,
+            "confidence": 7,
+            "num_verification_attempts": 1,
+            "builds": [
+                {
+                    "build_id": "JWRTuH2h6Y5UlnH6BUpb",
+                    "description_id": "632738ab-6da6-4c07-9611-5f827ca4269f",
+                    "is_success": true,
+                    "num_attempts": 1
+                }
+            ]
+        }
+    ],
+    "training_grids": [
+        {
+            "input": [
+                [
+                    3,
+                    3,
+                    8
+                ],
+                [
+                    3,
+                    7,
+                    0
+                ],
+                [
+                    5,
+                    0,
+                    0
+                ]
+            ],
+            "output": [
+                [
+                    0,
+                    0,
+                    5
+                ],
+                [
+                    0,
+                    7,
+                    3
+                ],
+                [
+                    8,
+                    3,
+                    3
+                ]
+            ]
+        },
+        {
+            "input": [
+                [
+                    5,
+                    5,
+                    2
+                ],
+                [
+                    1,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "output": [
+                [
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    1
+                ],
+                [
+                    2,
+                    5,
+                    5
+                ]
+            ]
+        }
+    ],
+    "test_grid": [
+        {
+            "input": [
+                [
+                    6,
+                    3,
+                    5
+                ],
+                [
+                    6,
+                    8,
+                    0
+                ],
+                [
+                    4,
+                    0,
+                    0
+                ]
+            ],
+            "output": [
+                [
+                    0,
+                    0,
+                    4
+                ],
+                [
+                    0,
+                    8,
+                    6
+                ],
+                [
+                    5,
+                    3,
+                    6
+                ]
+            ]
+        }
+    ]
+}

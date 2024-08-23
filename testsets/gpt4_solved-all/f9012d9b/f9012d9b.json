@@ -1,0 +1,306 @@
+{
+    "task_name": "f9012d9b.json",
+    "task_number": 393,
+    "descriptions": [
+        {
+            "description_id": "32666cbe-d6df-47d5-9468-f2935df36795",
+            "task_name": "f9012d9b.json",
+            "description_input": "In the input, you should see...rectangle box pattern",
+            "description_output_grid_size": "The output grid size...black pattern replace low pattern color",
+            "description_output_instructions": "To make the output, you have to...apply color pattern",
+            "is_verified": false,
+            "confidence": null,
+            "num_verification_attempts": 3,
+            "builds": []
+        },
+        {
+            "description_id": "9e0a6e2b-1d3a-41f5-aa3a-aaad9b9ea54f",
+            "task_name": "f9012d9b.json",
+            "description_input": "In the input, you should see...you should see a grid with a two color pattern and a black square in place of part of that pattern.",
+            "description_output_grid_size": "The output grid size...should be the same size and shape as the black square.",
+            "description_output_instructions": "To make the output, you have to...fill in the grid so you that you finish the colored pattern that should go where the black squares are located.",
+            "is_verified": true,
+            "confidence": 10,
+            "num_verification_attempts": 1,
+            "builds": [
+                {
+                    "build_id": "tk1TWexJZKeuu2g2kuEZ",
+                    "description_id": "9e0a6e2b-1d3a-41f5-aa3a-aaad9b9ea54f",
+                    "is_success": false,
+                    "num_attempts": 3
+                },
+                {
+                    "build_id": "uesqzagnA5FVdD9CybDb",
+                    "description_id": "9e0a6e2b-1d3a-41f5-aa3a-aaad9b9ea54f",
+                    "is_success": true,
+                    "num_attempts": 1
+                }
+            ]
+        },
+        {
+            "description_id": "b5b8505b-f297-4831-a27f-0ca1b9dffce3",
+            "task_name": "f9012d9b.json",
+            "description_input": "In the input, you should see...a grid with a two color pattern and a black square in place of part of the pattern",
+            "description_output_grid_size": "The output grid size... the size of the black squares",
+            "description_output_instructions": "To make the output, you have to... make the part of the colored pattern that should go where the black squares are",
+            "is_verified": true,
+            "confidence": 8,
+            "num_verification_attempts": 1,
+            "builds": [
+                {
+                    "build_id": "tSZXVrBfzsPqfzW21wuM",
+                    "description_id": "b5b8505b-f297-4831-a27f-0ca1b9dffce3",
+                    "is_success": true,
+                    "num_attempts": 1
+                }
+            ]
+        }
+    ],
+    "training_grids": [
+        {
+            "input": [
+                [
+                    2,
+                    1,
+                    2,
+                    1,
+                    2
+                ],
+                [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                [
+                    2,
+                    1,
+                    2,
+                    1,
+                    2
+                ],
+                [
+                    0,
+                    0,
+                    1,
+                    1,
+                    1
+                ],
+                [
+                    0,
+                    0,
+                    2,
+                    1,
+                    2
+                ]
+            ],
+            "output": [
+                [
+                    1,
+                    1
+                ],
+                [
+                    2,
+                    1
+                ]
+            ]
+        },
+        {
+            "input": [
+                [
+                    8,
+                    6,
+                    0,
+                    6
+                ],
+                [
+                    6,
+                    8,
+                    6,
+                    8
+                ],
+                [
+                    8,
+                    6,
+                    8,
+                    6
+                ],
+                [
+                    6,
+                    8,
+                    6,
+                    8
+                ]
+            ],
+            "output": [
+                [
+                    8
+                ]
+            ]
+        },
+        {
+            "input": [
+                [
+                    2,
+                    2,
+                    5,
+                    2,
+                    2,
+                    5,
+                    2
+                ],
+                [
+                    2,
+                    2,
+                    5,
+                    2,
+                    2,
+                    5,
+                    2
+                ],
+                [
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5
+                ],
+                [
+                    2,
+                    2,
+                    5,
+                    2,
+                    2,
+                    5,
+                    2
+                ],
+                [
+                    2,
+                    2,
+                    5,
+                    2,
+                    2,
+                    5,
+                    2
+                ],
+                [
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    0,
+                    0
+                ],
+                [
+                    2,
+                    2,
+                    5,
+                    2,
+                    2,
+                    0,
+                    0
+                ]
+            ],
+            "output": [
+                [
+                    5,
+                    5
+                ],
+                [
+                    5,
+                    2
+                ]
+            ]
+        }
+    ],
+    "test_grid": [
+        {
+            "input": [
+                [
+                    8,
+                    1,
+                    8,
+                    8,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    1,
+                    8,
+                    8,
+                    1,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    8,
+                    8,
+                    1,
+                    8,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    8,
+                    1,
+                    8,
+                    8,
+                    1,
+                    8,
+                    8
+                ],
+                [
+                    1,
+                    8,
+                    8,
+                    1,
+                    8,
+                    8,
+                    1
+                ],
+                [
+                    8,
+                    8,
+                    1,
+                    8,
+                    8,
+                    1,
+                    8
+                ],
+                [
+                    8,
+                    1,
+                    8,
+                    8,
+                    1,
+                    8,
+                    8
+                ]
+            ],
+            "output": [
+                [
+                    1,
+                    8,
+                    8
+                ],
+                [
+                    8,
+                    8,
+                    1
+                ],
+                [
+                    8,
+                    1,
+                    8
+                ]
+            ]
+        }
+    ]
+}

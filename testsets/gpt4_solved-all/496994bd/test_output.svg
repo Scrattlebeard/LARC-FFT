@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="500">
+<defs>
+    <!-- Define the overall grid which we represent our shapes in -->
+    <pattern id="grid" width="50" height="50" patternUnits="userSpaceOnUse">
+        <path d="M 50 0 L 0 0 0 50" fill="none" stroke="gray" stroke-width="8"/>
+    </pattern>
+
+    <!-- Define a mapping from int used in the json to colors -->
+    <linearGradient id="0-black">
+        <stop offset="100%" stop-color="#000000"/>
+    </linearGradient>
+    <linearGradient id="1-blue">
+        <stop offset="100%" stop-color="#0074D9"/>
+    </linearGradient>
+    <linearGradient id="2-red">
+        <stop offset="100%" stop-color="#FF4136"/>
+    </linearGradient>
+    <linearGradient id="3-green">
+        <stop offset="100%" stop-color="#2ECC40"/>
+    </linearGradient>
+    <linearGradient id="4-yellow">
+        <stop offset="100%" stop-color="#FFDC00"/>
+    </linearGradient>
+    <linearGradient id="5-grey">
+        <stop offset="100%" stop-color="#AAAAAA"/>
+    </linearGradient>
+    <linearGradient id="6-pink">
+        <stop offset="100%" stop-color="#F012BE"/>
+    </linearGradient>
+    <linearGradient id="7-orange">
+        <stop offset="100%" stop-color="#FF851B"/>
+    </linearGradient>
+    <linearGradient id="8-teal">
+        <stop offset="100%" stop-color="#7FDBFF"/>
+    </linearGradient>
+    <linearGradient id="9-brown">
+        <stop offset="100%" stop-color="#870C25"/>
+    </linearGradient>
+</defs>
+
+<!-- Now we add in each cell from the json -->
+<rect id="coord(0,0)" x="0" y="0" width="50" height="50" fill="url(#3-green)"/> <rect id="coord(0,1)" x="50" y="0" width="50" height="50" fill="url(#3-green)"/> <rect id="coord(0,2)" x="100" y="0" width="50" height="50" fill="url(#3-green)"/> <rect id="coord(0,3)" x="150" y="0" width="50" height="50" fill="url(#3-green)"/> <rect id="coord(0,4)" x="200" y="0" width="50" height="50" fill="url(#3-green)"/> <rect id="coord(0,5)" x="250" y="0" width="50" height="50" fill="url(#3-green)"/> 
+<rect id="coord(1,0)" x="0" y="50" width="50" height="50" fill="url(#5-grey)"/> <rect id="coord(1,1)" x="50" y="50" width="50" height="50" fill="url(#5-grey)"/> <rect id="coord(1,2)" x="100" y="50" width="50" height="50" fill="url(#5-grey)"/> <rect id="coord(1,3)" x="150" y="50" width="50" height="50" fill="url(#5-grey)"/> <rect id="coord(1,4)" x="200" y="50" width="50" height="50" fill="url(#5-grey)"/> <rect id="coord(1,5)" x="250" y="50" width="50" height="50" fill="url(#5-grey)"/> 
+<rect id="coord(2,0)" x="0" y="100" width="50" height="50" fill="url(#5-grey)"/> <rect id="coord(2,1)" x="50" y="100" width="50" height="50" fill="url(#5-grey)"/> <rect id="coord(2,2)" x="100" y="100" width="50" height="50" fill="url(#5-grey)"/> <rect id="coord(2,3)" x="150" y="100" width="50" height="50" fill="url(#5-grey)"/> <rect id="coord(2,4)" x="200" y="100" width="50" height="50" fill="url(#5-grey)"/> <rect id="coord(2,5)" x="250" y="100" width="50" height="50" fill="url(#5-grey)"/> 
+<rect id="coord(3,0)" x="0" y="150" width="50" height="50" fill="url(#0-black)"/> <rect id="coord(3,1)" x="50" y="150" width="50" height="50" fill="url(#0-black)"/> <rect id="coord(3,2)" x="100" y="150" width="50" height="50" fill="url(#0-black)"/> <rect id="coord(3,3)" x="150" y="150" width="50" height="50" fill="url(#0-black)"/> <rect id="coord(3,4)" x="200" y="150" width="50" height="50" fill="url(#0-black)"/> <rect id="coord(3,5)" x="250" y="150" width="50" height="50" fill="url(#0-black)"/> 
+<rect id="coord(4,0)" x="0" y="200" width="50" height="50" fill="url(#0-black)"/> <rect id="coord(4,1)" x="50" y="200" width="50" height="50" fill="url(#0-black)"/> <rect id="coord(4,2)" x="100" y="200" width="50" height="50" fill="url(#0-black)"/> <rect id="coord(4,3)" x="150" y="200" width="50" height="50" fill="url(#0-black)"/> <rect id="coord(4,4)" x="200" y="200" width="50" height="50" fill="url(#0-black)"/> <rect id="coord(4,5)" x="250" y="200" width="50" height="50" fill="url(#0-black)"/> 
+<rect id="coord(5,0)" x="0" y="250" width="50" height="50" fill="url(#0-black)"/> <rect id="coord(5,1)" x="50" y="250" width="50" height="50" fill="url(#0-black)"/> <rect id="coord(5,2)" x="100" y="250" width="50" height="50" fill="url(#0-black)"/> <rect id="coord(5,3)" x="150" y="250" width="50" height="50" fill="url(#0-black)"/> <rect id="coord(5,4)" x="200" y="250" width="50" height="50" fill="url(#0-black)"/> <rect id="coord(5,5)" x="250" y="250" width="50" height="50" fill="url(#0-black)"/> 
+<rect id="coord(6,0)" x="0" y="300" width="50" height="50" fill="url(#0-black)"/> <rect id="coord(6,1)" x="50" y="300" width="50" height="50" fill="url(#0-black)"/> <rect id="coord(6,2)" x="100" y="300" width="50" height="50" fill="url(#0-black)"/> <rect id="coord(6,3)" x="150" y="300" width="50" height="50" fill="url(#0-black)"/> <rect id="coord(6,4)" x="200" y="300" width="50" height="50" fill="url(#0-black)"/> <rect id="coord(6,5)" x="250" y="300" width="50" height="50" fill="url(#0-black)"/> 
+<rect id="coord(7,0)" x="0" y="350" width="50" height="50" fill="url(#5-grey)"/> <rect id="coord(7,1)" x="50" y="350" width="50" height="50" fill="url(#5-grey)"/> <rect id="coord(7,2)" x="100" y="350" width="50" height="50" fill="url(#5-grey)"/> <rect id="coord(7,3)" x="150" y="350" width="50" height="50" fill="url(#5-grey)"/> <rect id="coord(7,4)" x="200" y="350" width="50" height="50" fill="url(#5-grey)"/> <rect id="coord(7,5)" x="250" y="350" width="50" height="50" fill="url(#5-grey)"/> 
+<rect id="coord(8,0)" x="0" y="400" width="50" height="50" fill="url(#5-grey)"/> <rect id="coord(8,1)" x="50" y="400" width="50" height="50" fill="url(#5-grey)"/> <rect id="coord(8,2)" x="100" y="400" width="50" height="50" fill="url(#5-grey)"/> <rect id="coord(8,3)" x="150" y="400" width="50" height="50" fill="url(#5-grey)"/> <rect id="coord(8,4)" x="200" y="400" width="50" height="50" fill="url(#5-grey)"/> <rect id="coord(8,5)" x="250" y="400" width="50" height="50" fill="url(#5-grey)"/> 
+<rect id="coord(9,0)" x="0" y="450" width="50" height="50" fill="url(#3-green)"/> <rect id="coord(9,1)" x="50" y="450" width="50" height="50" fill="url(#3-green)"/> <rect id="coord(9,2)" x="100" y="450" width="50" height="50" fill="url(#3-green)"/> <rect id="coord(9,3)" x="150" y="450" width="50" height="50" fill="url(#3-green)"/> <rect id="coord(9,4)" x="200" y="450" width="50" height="50" fill="url(#3-green)"/> <rect id="coord(9,5)" x="250" y="450" width="50" height="50" fill="url(#3-green)"/> 
+
+<!-- Now we add in the grid pattern -->
+<rect width="100%" height="100%" fill="url(#grid)" />
+</svg>

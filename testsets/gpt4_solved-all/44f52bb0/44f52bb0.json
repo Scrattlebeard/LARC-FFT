@@ -1,0 +1,267 @@
+{
+    "task_name": "44f52bb0.json",
+    "task_number": 102,
+    "descriptions": [
+        {
+            "description_id": "1d16b53b-8cae-43b0-9f4d-32b890629a66",
+            "task_name": "44f52bb0.json",
+            "description_input": "In the input, you should see....a 3x3 grid with black and pink squares. There colors are the same for each input grid but the site of the colors are different.",
+            "description_output_grid_size": "The output grid size...a 1x1 grid",
+            "description_output_instructions": "To make the output, you have to....fill in the first, second and last with blue and fill in the other three with yellow.",
+            "is_verified": true,
+            "confidence": 10,
+            "num_verification_attempts": 1,
+            "builds": [
+                {
+                    "build_id": "MX1oxFVylB3pPz8KKlli",
+                    "description_id": "1d16b53b-8cae-43b0-9f4d-32b890629a66",
+                    "is_success": false,
+                    "num_attempts": 3
+                }
+            ]
+        },
+        {
+            "description_id": "2c73d544-0d45-4b07-a843-5d2ac709fc44",
+            "task_name": "44f52bb0.json",
+            "description_input": "In the input, you should see...a 3x3 grid with black and pink squares.  There colors are the same for each input grid but the site of the colors are different.",
+            "description_output_grid_size": "The output grid size...a 1x1 grid.",
+            "description_output_instructions": "To make the output, you have to...fill in the first, second and last with blue and fill in the other three with yellow.",
+            "is_verified": true,
+            "confidence": 9,
+            "num_verification_attempts": 1,
+            "builds": [
+                {
+                    "build_id": "4TWJlxdQ0kXYSvD6bD5S",
+                    "description_id": "2c73d544-0d45-4b07-a843-5d2ac709fc44",
+                    "is_success": false,
+                    "num_attempts": 3
+                }
+            ]
+        },
+        {
+            "description_id": "4dfdc52b-5ca1-478f-aef1-f84698bb5c82",
+            "task_name": "44f52bb0.json",
+            "description_input": "In the input, you should see...a pattern of pink and black",
+            "description_output_grid_size": "The output grid size...change to one square",
+            "description_output_instructions": "To make the output, you have to...change it to either blue or orange",
+            "is_verified": true,
+            "confidence": 0,
+            "num_verification_attempts": 1,
+            "builds": []
+        },
+        {
+            "description_id": "c8a40bf6-9057-4f54-ad9a-71980c14792d",
+            "task_name": "44f52bb0.json",
+            "description_input": "In the input, you should see...3x3 grid",
+            "description_output_grid_size": "The output grid size...1x1 grid",
+            "description_output_instructions": "To make the output, you have to...if input has 3 or 4 red tiles output is orange. if in put has 2, 5, or 6 red tiles output is blue.",
+            "is_verified": true,
+            "confidence": 5,
+            "num_verification_attempts": 2,
+            "builds": [
+                {
+                    "build_id": "8KMWhlvtugaQE222W4wT",
+                    "description_id": "c8a40bf6-9057-4f54-ad9a-71980c14792d",
+                    "is_success": true,
+                    "num_attempts": 1
+                }
+            ]
+        }
+    ],
+    "training_grids": [
+        {
+            "input": [
+                [
+                    2,
+                    0,
+                    2
+                ],
+                [
+                    0,
+                    2,
+                    0
+                ],
+                [
+                    2,
+                    0,
+                    2
+                ]
+            ],
+            "output": [
+                [
+                    1
+                ]
+            ]
+        },
+        {
+            "input": [
+                [
+                    2,
+                    0,
+                    0
+                ],
+                [
+                    2,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    2,
+                    0
+                ]
+            ],
+            "output": [
+                [
+                    7
+                ]
+            ]
+        },
+        {
+            "input": [
+                [
+                    2,
+                    0,
+                    2
+                ],
+                [
+                    2,
+                    0,
+                    2
+                ],
+                [
+                    2,
+                    0,
+                    2
+                ]
+            ],
+            "output": [
+                [
+                    1
+                ]
+            ]
+        },
+        {
+            "input": [
+                [
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    2,
+                    0,
+                    2
+                ],
+                [
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "output": [
+                [
+                    1
+                ]
+            ]
+        },
+        {
+            "input": [
+                [
+                    2,
+                    2,
+                    0
+                ],
+                [
+                    0,
+                    2,
+                    2
+                ],
+                [
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "output": [
+                [
+                    7
+                ]
+            ]
+        },
+        {
+            "input": [
+                [
+                    2,
+                    2,
+                    0
+                ],
+                [
+                    0,
+                    2,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "output": [
+                [
+                    7
+                ]
+            ]
+        }
+    ],
+    "test_grid": [
+        {
+            "input": [
+                [
+                    2,
+                    0,
+                    2
+                ],
+                [
+                    2,
+                    2,
+                    2
+                ],
+                [
+                    2,
+                    0,
+                    2
+                ]
+            ],
+            "output": [
+                [
+                    1
+                ]
+            ]
+        },
+        {
+            "input": [
+                [
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    2,
+                    0,
+                    0
+                ],
+                [
+                    2,
+                    0,
+                    0
+                ]
+            ],
+            "output": [
+                [
+                    7
+                ]
+            ]
+        }
+    ]
+}
